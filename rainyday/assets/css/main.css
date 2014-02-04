@@ -1,0 +1,153 @@
+body {
+    background-color: #f2f2f2;
+    font-family: 'EB Garamond', serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    overflow-x: hidden;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #83E915;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 25px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.w {
+    margin-top: 60px;
+}
+
+.w i {
+    font-size: 26px;
+    padding: 12px;
+}
+
+#canvas {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#sound {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    overflow-y: auto;
+    margin-left: 35%;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color: #C4C4C4;
+    opacity: 0.3;
+    margin-top: 5%;
+    z-index: -1;
+}
+
+.video {
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.gwd-page-container {
+    position: absolute;
+    opacity: 1;
+    z-index: 99999;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    background: transparent;
+    width: 335px;
+    height: 500px;
+
+    -webkit-box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.40);
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.40);
+    border-radius: 25px;
+}
+
+#page1 {
+    background: transparent;
+}
+
+#page1 a {
+    text-decoration: none;
+    color: rgb(2, 110, 182);
+    text-shadow: 0px 1px 1px #fff;
+}
+
+.gwd-span-a8ou, .gwd-span-fm39, .gwd-span-rwnp {
+    text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+.main-page {
+    z-index: 10000;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
