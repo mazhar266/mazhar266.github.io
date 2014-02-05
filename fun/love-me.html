@@ -1,0 +1,48 @@
+
+<!-- saved from url=(0132)http://cdn.tripwiremagazine.com/wp-content/uploads/images/stories/Articles/9_Funniest_JavaScript_effects/You%20must%20love%20me.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>You must love me</title>
+	
+	<meta name="author" content="http://www.javascriptbank.com">
+	<meta name="distribution" content="Global">
+	<meta name="copyright" content="JavaScriptBank.com">
+<script type="text/javascript">
+flag=1
+function f1()
+{
+	alert("Thanks, :-* ")
+}
+function f()
+{
+	if(flag==1)
+		{
+			Bn.style.top=90
+			Bn.style.left=500
+			flag=2
+		}
+	else if(flag==2)
+		{
+			Bn.style.top=90
+			Bn.style.left=50
+			flag=3
+		}
+	else if(flag==3)
+		{
+			Bn.style.top=235
+			Bn.style.left=360
+			flag=1
+		}
+}
+</script>
+<style type="text/css"></style></head>
+<body>
+<h1 style="position:absolute; left:220px; top:175px; width:auto; height:210px;">Do you love me?</h1>
+<div id="By" style="position:absolute; left:285px; top:235px; width:210px; 
+height:210px;">
+	<input type="button" value=" YES " onclick="f1()">
+</div>
+<div id="Bn" style="position: absolute; left: 360px; top: 235px; width: 210px; height: 210px;">
+	<input type="button" value="  NO  " onmouseover="f()">
+</div>
+
+</body></html>

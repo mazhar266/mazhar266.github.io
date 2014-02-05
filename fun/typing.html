@@ -1,0 +1,48 @@
+
+<!-- saved from url=(0141)http://cdn.tripwiremagazine.com/wp-content/uploads/images/stories/Articles/9_Funniest_JavaScript_effects/Faking%20Textarea%20on%20Typing.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Typing</title>
+	
+	<meta name="author" content="http://www.javascriptbank.com">
+	<meta name="distribution" content="Global">
+	<meta name="copyright" content="JavaScriptBank.com">
+	<script language="javascript">
+<!-- done by JOHN CHACKO-  johns221b@yahoo.com--!>
+status="john chacko !!!!!"
+var a=new Array(),n=""
+a[1]='I';a[2]=' ';a[3]='A';a[4]='M';a[5]=' ';a[6]='A';a[7]=' ';a[8]='F';a[9]='O';a[10]='O';a[11]='L';a[12]=' ';a[13]=' ';a[14]='?';
+function one()
+{
+t=document.f.txt.value
+j=t.length
+if(j>0)
+{
+for(var i=1;i<=j;i++)
+{
+n=n+a[i]
+if(i==14)
+{
+document.f.txt.value=""
+n=""
+}
+}
+}
+document.f.txt.value=n
+n=""
+setTimeout("one()",1)
+}
+function on()
+{
+one()
+}
+</script>
+<style type="text/css"></style></head>
+<body onload="on()">
+<center>
+<h2>Type anthing slowly</h2>
+<form name="f">
+<textarea name="txt" cols="20" rows="5" style="margin: 2px; height: 71px; width: 161px;"></textarea>
+</form></center>
+
+
+</body></html>
