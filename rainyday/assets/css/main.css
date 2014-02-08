@@ -160,8 +160,3 @@ h1 {
 @media all and (min-height: 900px) {
   p:first-child {margin-top:200px;}
 }
-
-#background {
-    max-height:100%;
-    max-width:100%;
-}
