@@ -64,7 +64,7 @@ h4 {
 }
 
 .portfolio a.img {
-	margin: 20px;
+	margin: 20px 0px;
 	border-radius: 20px;
 	-webkit-border-radius: 20px;
 	overflow: hidden;
