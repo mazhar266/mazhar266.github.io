@@ -5,7 +5,7 @@ body {
 	/*white-space: pre-wrap;*/
 	background-image: url(../img/back.png);
 	font-family: 'Lato', sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 14px;
 }
 
@@ -21,6 +21,7 @@ body {
 	padding: 0px;
 	margin: 0px;
 	color: #957FB8;
+	font-weight: normal;
 }
 
 .title-holder p {
@@ -44,4 +45,64 @@ ul {
 
 ul li a {
 	float: right;
+}
+
+.github-fork-ribbon {
+	background-color: #A662AF;
+}
+
+.github-fork-ribbon:hover {
+	background-color: #957FB8;
+}
+
+h4 {
+	color: #957FB8;
+}
+
+.portfolio img {
+	width: 100%;
+}
+
+.portfolio a.img {
+	margin: 20px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	overflow: hidden;
+	border:10px solid #ccc;
+	width: 100%;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	display: block;
+}
+
+.portfolio a.img:hover {
+	border-color: #888;
+}
+
+.company {
+	text-align: center;
+}
+
+.company a {
+	margin: 50px 30px;
+	display: block;
+	text-align: center;
+}
+
+.company a:hover {
+	opacity: .6;
+}
+
+.company img {
+	width: 100%;
+	max-width: 200px;
+}
+
+.footer p {
+	font-size: 12px;
+	margin: 100px 0px 50px 0px;
+}
+
+.footer p a {
+	font-size: 16px;
 }
