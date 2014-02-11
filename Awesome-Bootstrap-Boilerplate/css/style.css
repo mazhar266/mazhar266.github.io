@@ -3,4 +3,44 @@
 body {
 	word-wrap: break-word;
 	/*white-space: pre-wrap;*/
+	background-image: url(../img/back.png);
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+.title-holder {
+	margin-top: 45%;
+	margin-bottom: 50%;
+}
+
+.title-holder h1 {
+	font-family: moon_flowerregular;
+	text-align: center;
+	font-size: 50px;
+	padding: 0px;
+	margin: 0px;
+	color: #957FB8;
+}
+
+.title-holder p {
+	text-align: center;
+	font-size: 14px;
+	color: #747474;
+	font-weight: 400;
+}
+
+.title-holder p strong {
+	font-size: 50px;
+	line-height: 14px;
+	margin: 0px 10px;
+	color: #957FB8;
+}
+
+ul {
+	max-width: 500px;
+	width: 100%;
+}
+
+ul li a {
+	float: right;
 }
