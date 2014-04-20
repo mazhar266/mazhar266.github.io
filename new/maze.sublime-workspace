@@ -1,0 +1,657 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"clear",
+				"clearfix"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"bakc",
+				"background-image"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"bor",
+				"border-box"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"f",
+				"font-family"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"t",
+				"top"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"baa",
+				"background-image"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"togg",
+				"toggleClass"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"sto",
+				"slideToggle"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"pre",
+				"preventDefault"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"get",
+				"getURLParameter"
+			],
+			[
+				"c",
+				"class	Attr"
+			],
+			[
+				"ilni",
+				"inline-block"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"border",
+				"border-box"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"ta",
+				"target	Attr"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"pri",
+				"print_r"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "scss/style.scss",
+			"settings":
+			{
+				"buffer_size": 13003,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 10192,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler( ))); open( os.path.join( ipp, pf), 'wb' ).write( urllib2.urlopen( 'http://sublime.wbond.net/' +pf.replace( ' ','%20' )).read()); print( 'Please restart Sublime Text to finish installation')",
+			"exit()",
+			"python",
+			"irb",
+			"package",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/mazhar/new-maze/scss/style.scss",
+		"/Users/mazhar/new-maze/index.html",
+		"/Users/mazhar/new-maze/css/style.css",
+		"/Users/mazhar/new-maze/bitters/_bitters.scss",
+		"/Users/mazhar/new-maze/bourbon/_bourbon.scss",
+		"/Users/mazhar/new-maze/css/main.css",
+		"/Users/mazhar/Desktop/Pricing/index.html",
+		"/Users/mazhar/Desktop/Pricing/scss/app.scss",
+		"/Users/mazhar/ChatSecure-iOS-master/Podfile",
+		"/Users/mazhar/iOS-EasyReader-master/Podfile",
+		"/Users/mazhar/AIM-Test/pay.php",
+		"/Users/mazhar/htmls/Nutricion/css/style.css",
+		"/Users/mazhar/htmls/daag/css/daag.css",
+		"/Users/mazhar/htmls/soh7/css/main.css",
+		"/Users/mazhar/htmls/soh7/leadership.html",
+		"/Users/mazhar/htmls/soh7/css/bootstrap.css",
+		"/Users/mazhar/htmls/soh7/css/font.css",
+		"/Users/mazhar/htmls/soh7/challenge.html",
+		"/Users/mazhar/htmls/soh7/event.html",
+		"/Users/mazhar/htmls/soh7/donate.html",
+		"/Users/mazhar/htmls/soh7/contact.html",
+		"/Users/mazhar/Desktop/instructions.txt",
+		"/Users/mazhar/htmls/soh7/solution.html",
+		"/Users/mazhar/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/mazhar/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/mazhar/htmls/Nutricion/contact.html",
+		"/Users/mazhar/htmls/Nutricion/health-blog-post.html",
+		"/Users/mazhar/htmls/Nutricion/receipe.html",
+		"/Users/mazhar/htmls/Nutricion/portfolio.html",
+		"/Users/mazhar/htmls/Nutricion/health-blog.html",
+		"/Users/mazhar/htmls/Nutricion/index.html",
+		"/Users/mazhar/htmls/Nutricion/js/main.js",
+		"/Users/mazhar/htmls/soh6/donate_online.php",
+		"/Users/mazhar/htmls/soh6/index.html",
+		"/Users/mazhar/htmls/soh6/css/main.css",
+		"/Users/mazhar/htmls/soh6/js/main.js",
+		"/Users/mazhar/htmls/tnt-sport/css/all.css",
+		"/Users/mazhar/htmls/Nutricion/css/main.css",
+		"/Users/mazhar/htmls/tnt-sport/products.html",
+		"/Users/mazhar/htmls/tnt-sport/js/all.js",
+		"/Users/mazhar/htmls/tnt-sport/page visit.html",
+		"/Users/mazhar/htmls/tnt-sport/products popup modal.html",
+		"/Users/mazhar/htmls/tnt-sport/products search index.html",
+		"/Users/mazhar/htmls/tnt-sport/products search.html",
+		"/Users/mazhar/htmls/tnt-sport/home-popup.html",
+		"/Users/mazhar/htmls/tnt-sport/contact.html",
+		"/Users/mazhar/htmls/tnt-sport/cart.html",
+		"/Users/mazhar/htmls/tnt-sport/account.html",
+		"/Users/mazhar/htmls/tnt-sport/index.html",
+		"/Users/mazhar/htmls/soh6/donate.html",
+		"/Users/mazhar/htmls/soh6/send_newsletter.php",
+		"/Users/mazhar/htmls/soh6/send_form_email.php",
+		"/Users/mazhar/htmls/soh6/where-we-work.html",
+		"/Users/mazhar/htmls/soh6/volunteer.html",
+		"/Users/mazhar/htmls/soh6/solution.html",
+		"/Users/mazhar/htmls/soh4/send_form_email.php",
+		"/Users/mazhar/htmls/soh4/donate.html",
+		"/Users/mazhar/htmls/soh4/donate_online.php",
+		"/Users/mazhar/htmls/soh4/process.php",
+		"/Users/mazhar/htmls/soh4/js/main.js",
+		"/Users/mazhar/Desktop/mac of micronet router",
+		"/Users/mazhar/htmls/tnt-sport/popup.html",
+		"/Users/mazhar/htmls/soh4/css/main.css",
+		"/Users/mazhar/Desktop/untitled.html",
+		"/Users/mazhar/Desktop/html/css/all.css",
+		"/Users/mazhar/Desktop/tnt-sport/css/all.css",
+		"/Users/mazhar/Desktop/html/js/all.js",
+		"/Users/mazhar/Desktop/tnt-sport/js/all.js",
+		"/Users/mazhar/Desktop/tnt-sport/products popup modal.html",
+		"/Users/mazhar/Desktop/tnt-sport/products search index.html",
+		"/Users/mazhar/Desktop/tnt-sport/products search.html",
+		"/Users/mazhar/Desktop/tnt-sport/products.html",
+		"/Users/mazhar/Desktop/tnt-sport/products copy.html",
+		"/Users/mazhar/Desktop/tnt-sport/products popup.html",
+		"/Users/mazhar/Desktop/HTML & CSS CLASS/class2/index (2).html",
+		"/Users/mazhar/Library/Application Support/Sublime Text 3/Packages/User/LiveStyle.sublime-settings",
+		"/Users/mazhar/Desktop/tnt_design_site_html/index.html",
+		"/Users/mazhar/Desktop/tnt-sport/index.html",
+		"/Users/mazhar/Desktop/tnt_design_site_html/css/all.css",
+		"/Users/mazhar/Desktop/mf-supports.txt",
+		"/Users/mazhar/Desktop/aws-ses.py",
+		"/Users/mazhar/Desktop/tarique soh from arif/html/donate_online.php",
+		"/Users/mazhar/Desktop/test.html",
+		"/Users/mazhar/Desktop/tarique soh from arif/html/contact.html",
+		"/Users/mazhar/Desktop/tarique soh from arif/html/send_form_email.php",
+		"/Users/mazhar/Desktop/mandrill.py",
+		"/Users/mazhar/Desktop/tarique_soh_new/donate_online.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/checkout/shipping.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/checkout/less/variables.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/checkout/less/font-awesome.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/checkout/less/fixed-width.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/checkout/less/core.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/checkout/less/style.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/checkout/index.html",
+		"/Users/mazhar/Desktop/checkout v2/less/style.less",
+		"/Users/mazhar/Desktop/checkout v2/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/mf/assets/css/front/font-awesome.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/mf/assets/css/front/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/mf/application/config/database.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/mf/application/config/config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/mf/application/controllers/mfreshly.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/mf/errors.csv",
+		"/Applications/XAMPP/xamppfiles/etc/httpd.conf",
+		"/Users/mazhar/Downloads/foundation-5.1.1/index.html",
+		"/Users/mazhar/Desktop/html5-boilerplate-4.3.0/index.html",
+		"/Users/mazhar/Desktop/html5-boilerplate-4.3.0/css/style.css",
+		"/Users/mazhar/Desktop/html5-boilerplate-4.3.0/css/main.css",
+		"/Users/mazhar/Desktop/html5-boilerplate-4.3.0/js/plugins.js",
+		"/Users/mazhar/Desktop/html5-boilerplate-4.3.0/js/main.js",
+		"/Users/mazhar/Desktop/html5-boilerplate-4.3.0/js/vendor/jquery-1.10.2.min.js",
+		"/Users/mazhar/Desktop/html5-boilerplate-4.3.0/js/vendor/jquery-1.11.0.min.map",
+		"/Users/mazhar/Desktop/rainyday.js-master/demo5.html",
+		"/Users/mazhar/Madefreshly-V2/application/views/themes/product_snippet.php",
+		"/Users/mazhar/mazhar266.github.io/index.html",
+		"/Users/mazhar/Desktop/shadowbox-3.0.3/shadowbox.js",
+		"/Users/mazhar/Desktop/tarique_soh/css/main.css",
+		"/Users/mazhar/Desktop/tarique_soh/home.html",
+		"/Users/mazhar/Desktop/love-me.html",
+		"/Users/mazhar/Desktop/typing.html",
+		"/Users/mazhar/mazhar266.github.io/css/style.css",
+		"/Users/mazhar/Desktop/smpl/theme rainyday/index.html",
+		"/Users/mazhar/Desktop/smpl/theme rainyday/assets/css/main.css",
+		"/Users/mazhar/Desktop/backup/view.html",
+		"/Users/mazhar/Desktop/backup/index.php",
+		"/Users/mazhar/Desktop/tarique_soh/soh/css/main.css",
+		"/Users/mazhar/Desktop/tarique_soh/html/css/main.css",
+		"/Users/mazhar/WebstormProjects/live-chat/live chat html/css/front.css",
+		"/Users/mazhar/Desktop/tarique_soh/soh1/css/font-awesome.css"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"dir",
+			"arrow",
+			"sep",
+			".tab-content ul li .content-show",
+			"roboto",
+			"open",
+			".open",
+			"ope",
+			"open",
+			".nav",
+			".nav li",
+			"0px",
+			"footer",
+			"footer-top-",
+			".nav",
+			"$_REQUEST",
+			"$_GET",
+			"cvv",
+			"ccv",
+			".content-area ul",
+			"charge_total",
+			"donate",
+			"tabu",
+			"NICARAGUA",
+			"item-text",
+			".need-area ul li span",
+			"goToLink",
+			".modal .window .popup-ab-button",
+			"footer .question-window",
+			"MINCEUR",
+			"facebook",
+			"<a href=\"#\"><img src=\"assets/img/voir.png\" alt=\"\"></a>",
+			"Le PACK SERIOUS MASS 5400 g + WHEY 908 g Optimum N",
+			"Le PACK SERIOUS MASS 5400 g + WHEY 908 g Optimum N...",
+			"ESPACE INFOS",
+			"header",
+			"a",
+			"PROTEINES",
+			"value=\"\"",
+			"option",
+			">\n",
+			"css",
+			"box-shadow",
+			".newhome-section-fifth .ssecond",
+			"===",
+			"@media",
+			"url",
+			"izzi slim",
+			".lens-options .some-style",
+			".lens-options",
+			"\n<!--",
+			"lg"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$_POST",
+			"$_REQUEST",
+			"<a href=\"#\" class=\"r-b-button\">voir</a>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "scss/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13003,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								140,
+								140
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1874,
+								1874
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 294.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "maze.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 267.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Mazhar Ahmed -- Director of Engineering -- https://twitter.com/mighty_maze
+
+# THANKS
+
+    Tarique Tuku -- CEO -- http://tarique.me
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, jQuery
