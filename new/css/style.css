@@ -366,7 +366,7 @@ header.navigation {
         -webkit-transition: all 0.2s ease-in-out;
         -moz-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out;
-        background: #477dca;
+        background: #4e97db;
         border-radius: 0.1875em;
         color: white;
         font-size: .8em;
@@ -374,7 +374,7 @@ header.navigation {
         padding: .6em 1em;
         text-transform: uppercase; }
         header.navigation .sign-up a:hover {
-          background: #6f99d5; } }
+          background: #78b0e4; } }
   header.navigation li.navigation-search-bar {
     display: none; }
     @media screen and (min-width: 53.75em) {
@@ -470,7 +470,7 @@ header.navigation {
 
 .hero {
   background: url(https://raw.github.com/Magnus-G/Random/master/lake-transparent.png);
-  background-color: #40526b;
+  background-color: #3e6385;
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -482,7 +482,7 @@ header.navigation {
     max-width: 68em;
     margin-left: auto;
     margin-right: auto;
-    padding: 3em;
+    padding: 2em;
     padding-top: 8em;
     padding-bottom: 8em;
     margin: auto;
@@ -497,36 +497,37 @@ header.navigation {
       display: table;
       clear: both; }
     .hero .hero-inner button {
-      border: 1px solid #2459a6;
+      border: 1px solid #1c74c6;
       border-radius: 3px;
-      box-shadow: inset 0 1px 0 0 #89a8d5;
+      box-shadow: inset 0 1px 0 0 #93bce2;
       color: white;
       display: inline-block;
       font-size: inherit;
       font-weight: bold;
-      background-color: #477dca;
-      background-image: -webkit-linear-gradient(#477dca, #2760b2);
-      background-image: linear-gradient(#477dca, #2760b2);
+      background-color: #4e97db;
+      background-image: -webkit-linear-gradient(#4e97db, #1e7cd3);
+      background-image: linear-gradient(#4e97db, #1e7cd3);
       padding: 7px 18px;
       text-decoration: none;
-      text-shadow: 0 1px 0 #1b4f9a;
+      text-shadow: 0 1px 0 #136aba;
       background-clip: padding-box;
       font-size: 1em;
       outline: none; }
       .hero .hero-inner button:hover:not(:disabled) {
-        box-shadow: inset 0 1px 0 0 #628cc8;
+        box-shadow: inset 0 1px 0 0 #6aa3d9;
         cursor: pointer;
-        background-color: #3c71bb;
-        background-image: -webkit-linear-gradient(#3c71bb, #255aa5);
-        background-image: linear-gradient(#3c71bb, #255aa5); }
+        background-color: #3e8ad2;
+        background-image: -webkit-linear-gradient(#3e8ad2, #1d74c4);
+        background-image: linear-gradient(#3e8ad2, #1d74c4); }
       .hero .hero-inner button:active:not(:disabled), .hero .hero-inner button:focus:not(:disabled) {
-        border: 1px solid #2459a6;
-        box-shadow: inset 0 0 8px 4px #235397, inset 0 0 8px 4px #235397; }
+        border: 1px solid #1c74c6;
+        box-shadow: inset 0 0 8px 4px #1c6cb6, inset 0 0 8px 4px #1c6cb6; }
       .hero .hero-inner button:disabled {
         opacity: 0.5;
         cursor: not-allowed; }
     .hero .hero-inner .hero-copy {
-      text-align: center; }
+      text-align: center;
+      letter-spacing: 1px; }
       .hero .hero-inner .hero-copy h1 {
         font-size: 1.4em;
         margin-bottom: .2em; }
@@ -543,7 +544,7 @@ header.navigation {
             max-width: 40%; } }
 
 .footer {
-  background: #40526b;
+  background: #3e6385;
   padding: 3em 1.618em;
   width: 100%; }
   .footer .footer-logo {
@@ -613,7 +614,7 @@ header.navigation {
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   height: 14em;
-  background: #6b83a6;
+  background: #6e96bb;
   width: 100%;
   overflow: hidden;
   float: left;
@@ -628,10 +629,10 @@ header.navigation {
     .grid-items .grid-item {
       width: 33.33333%; } }
   .grid-items .grid-item:nth-child(1) {
-    background-color: #6b83a6;
-    box-shadow: inset 0px 0px 1px 2px #536a8b; }
+    background-color: #6e96bb;
+    box-shadow: inset 0px 0px 1px 2px #4e7da8; }
     .grid-items .grid-item:nth-child(1):hover {
-      background-color: #536a8b;
+      background-color: #4e7da8;
       background-repeat: no-repeat;
       background-position: top;
       background-size: cover; }
@@ -705,8 +706,7 @@ header.navigation {
   .grid-items .grid-item-big p {
     max-width: 60%; } }
 .grid-items .grid-item-image {
-  background: url(https://raw.github.com/Magnus-G/Random/master/lake-transparent.png);
-  background-color: #6b83a6;
+  background-color: #6e96bb;
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover; }
@@ -752,17 +752,17 @@ header.navigation {
         clear: left; } }
   .bullets .bullet-icon {
     float: left;
-    background: #477dca;
+    background: #4e97db;
     padding: 0.875em;
     border-radius: 50%;
     width: 3.5em;
     height: 3.5em; }
   .bullets .bullet-icon-1 {
-    background: #477dca; }
+    background: #4e97db; }
   .bullets .bullet-icon-2 {
-    background: #47caaa; }
+    background: #4edba9; }
   .bullets .bullet-icon-3 {
-    background: #a9ca47; }
+    background: #c6db4e; }
   .bullets .bullet-content {
     margin-left: 4.9em;
     margin-bottom: 2em; }
@@ -792,7 +792,7 @@ header.navigation {
       height: auto;
       border-radius: 0.1875em;
       padding: 0.7em;
-      background: #82a7db;
+      background: #8ebce8;
       display: block;
       max-width: none; }
     .comment-reverse-order .comment .comment-image {

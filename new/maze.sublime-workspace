@@ -235,7 +235,7 @@
 			"file": "scss/style.scss",
 			"settings":
 			{
-				"buffer_size": 13003,
+				"buffer_size": 13069,
 				"line_ending": "Unix"
 			}
 		},
@@ -243,7 +243,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 10192,
+				"buffer_size": 10306,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "coffee/main.coffee",
+			"settings":
+			{
+				"buffer_size": 542,
 				"line_ending": "Unix"
 			}
 		}
@@ -294,6 +302,8 @@
 	},
 	"file_history":
 	[
+		"/Users/mazhar/new-maze/coffee/main.coffee",
+		"/Users/mazhar/new-maze/coffee/main.js",
 		"/Users/mazhar/new-maze/scss/style.scss",
 		"/Users/mazhar/new-maze/index.html",
 		"/Users/mazhar/new-maze/css/style.css",
@@ -419,13 +429,11 @@
 		"/Users/mazhar/Desktop/backup/view.html",
 		"/Users/mazhar/Desktop/backup/index.php",
 		"/Users/mazhar/Desktop/tarique_soh/soh/css/main.css",
-		"/Users/mazhar/Desktop/tarique_soh/html/css/main.css",
-		"/Users/mazhar/WebstormProjects/live-chat/live chat html/css/front.css",
-		"/Users/mazhar/Desktop/tarique_soh/soh1/css/font-awesome.css"
+		"/Users/mazhar/Desktop/tarique_soh/html/css/main.css"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -439,6 +447,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"portfolio",
 			"dir",
 			"arrow",
 			"sep",
@@ -511,7 +520,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -520,15 +529,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13003,
+						"buffer_size": 13069,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								140,
-								140
+								5712,
+								5712
 							]
 						],
 						"settings":
@@ -538,7 +547,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3914.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -550,15 +559,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10192,
+						"buffer_size": 10306,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1874,
-								1874
+								9544,
+								9544
 							]
 						],
 						"settings":
@@ -568,7 +577,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 294.0,
+						"translation.y": 3034.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "coffee/main.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 542,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								454,
+								454
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -583,7 +620,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{

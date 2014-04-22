@@ -2,6 +2,8 @@
 @import "../neat/neat";
 @import "../bitters/bitters";
 
+$base-accent-color : #4E97DB;
+
 body {
   // long text without whitespace link break fix
   word-wrap: break-word;
@@ -262,7 +264,7 @@ header.navigation {
     .hero-inner {
         @include outer-container;
         @include clearfix;
-        padding: 3em;
+        padding: 2em;
         padding-top: 8em;
         padding-bottom: 8em;
         margin: auto;
@@ -277,6 +279,7 @@ header.navigation {
 
         .hero-copy {
             text-align: center;
+            letter-spacing: 1px;
             
             h1 {
                 font-size: 1.4em;
@@ -470,7 +473,7 @@ header.navigation {
   }
 
   .grid-item-image {
-    background: url(https://raw.github.com/Magnus-G/Random/master/lake-transparent.png);
+    //background: url(https://raw.github.com/Magnus-G/Random/master/lake-transparent.png);
     background-color: $grid-item-background;
     background-repeat: no-repeat;
     background-position: top;

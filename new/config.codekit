@@ -1314,6 +1314,30 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/coffee\/main.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/coffee\/main.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/coffee\/main.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/coffee\/main.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/coffee\/main.js",
+		"outputAbbreviatedPath": "\/coffee\/min\/main-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/CONTRIBUTING.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -1461,6 +1485,72 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/slides\/1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43910,
+		"inputAbbreviatedPath": "\/img\/slides\/1.jpg",
+		"outputAbbreviatedPath": "\/img\/slides\/1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/slides\/2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36192,
+		"inputAbbreviatedPath": "\/img\/slides\/2.jpg",
+		"outputAbbreviatedPath": "\/img\/slides\/2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/slides\/3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40813,
+		"inputAbbreviatedPath": "\/img\/slides\/3.jpg",
+		"outputAbbreviatedPath": "\/img\/slides\/3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/slides\/4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37031,
+		"inputAbbreviatedPath": "\/img\/slides\/4.jpg",
+		"outputAbbreviatedPath": "\/img\/slides\/4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/slides\/5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36943,
+		"inputAbbreviatedPath": "\/img\/slides\/5.jpg",
+		"outputAbbreviatedPath": "\/img\/slides\/5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/slides\/6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36995,
+		"inputAbbreviatedPath": "\/img\/slides\/6.jpg",
+		"outputAbbreviatedPath": "\/img\/slides\/6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1498,6 +1588,39 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/vendor\/jquery-1.10.2.min.js",
 		"outputAbbreviatedPath": "\/js\/vendor\/min\/jquery-1.10.2.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/vendor\/jquery-2.1.0.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/vendor\/jquery-2.1.0.min.js",
+		"outputAbbreviatedPath": "\/js\/vendor\/min\/jquery-2.1.0.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/vendor\/jquery.backstretch.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/vendor\/jquery.backstretch.min.js",
+		"outputAbbreviatedPath": "\/js\/vendor\/min\/jquery.backstretch.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/vendor\/min\/jquery-2.1.0.min-ck.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/vendor\/min\/jquery-2.1.0.min-ck.js",
+		"outputAbbreviatedPath": "\/js\/vendor\/min\/min\/jquery-2.1.0.min-ck-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
