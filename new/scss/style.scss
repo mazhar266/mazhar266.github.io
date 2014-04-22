@@ -250,7 +250,7 @@ header.navigation {
     $hero-color: white;
 
     background: url(https://raw.github.com/Magnus-G/Random/master/lake-transparent.png);
-    background-color: $hero-background;
+    background-color: $hero-background !important;
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;

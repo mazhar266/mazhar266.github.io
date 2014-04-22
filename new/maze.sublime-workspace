@@ -235,7 +235,7 @@
 			"file": "scss/style.scss",
 			"settings":
 			{
-				"buffer_size": 13069,
+				"buffer_size": 13080,
 				"line_ending": "Unix"
 			}
 		},
@@ -520,7 +520,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -529,15 +529,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13069,
+						"buffer_size": 13080,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5712,
-								5712
+								5429,
+								5429
 							]
 						],
 						"settings":
@@ -547,10 +547,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3914.0,
+						"translation.y": 3624.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -608,7 +608,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
