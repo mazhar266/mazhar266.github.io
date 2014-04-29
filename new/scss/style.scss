@@ -1,8 +1,11 @@
 @import "../bourbon/bourbon";
 @import "../neat/neat";
 @import "../bitters/bitters";
+@import "font-awesome";
 
 $base-accent-color : #4E97DB;
+$lato : 'Lato', Arial, sans-serif;
+$rokkit : 'Rokkitt', 'serif';
 
 body {
   // long text without whitespace link break fix
@@ -12,6 +15,15 @@ body {
   -webkit-font-smoothing: subpixel-antialiased;
   //-moz-osx-font-smoothing: grayscale;
   //-webkit-text-stroke: .2px;
+
+  font-weight: 400;
+  font-size: 1em;
+  font-family: $lato;
+}
+
+.smooth-animation {
+  @include transform(translate3d(0,0,0));
+
 }
 
 .my-limit {
@@ -54,6 +66,10 @@ body {
 
 .my-spacer5 {
   height: 25px;
+}
+
+.my-title {
+  font-family:  $rokkit;
 }
 
 // header
@@ -160,6 +176,9 @@ header.navigation {
     a {
       font-weight: 400;
       color: $navigation-color;
+      font-family:  $rokkit;
+      letter-spacing: 1px;
+      font-size: 1em;
 
       &:hover {
         color: $navigation-color-hover;
@@ -169,7 +188,7 @@ header.navigation {
 
   .sign-up {
     @include media ($large-screen) {
-      @include position(absolute, 0px 0px 0 0);
+      @include position(absolute, 0px 0px auto auto);
       padding-right: 1em;
 
       a {
@@ -177,10 +196,11 @@ header.navigation {
         background: $navigation-nav-button-background;
         border-radius: $base-border-radius; 
         color: white;
-        font-size: .8em;  
+        font-size: 1em;  
         font-weight: 800;
         padding: .6em 1em;
         text-transform: uppercase;
+        font-family:  $rokkit;
 
         &:hover {
           background: lighten($navigation-nav-button-background, 10);
@@ -273,17 +293,21 @@ header.navigation {
 
         button {
             @include button(simple, $base-accent-color);
-            font-size: $base-font-size;
+            font-size: $base-font-size + 0.2;
             outline: none;
+            font-family: $rokkit;
+            line-height: 2em;
         }
 
         .hero-copy {
             text-align: center;
             letter-spacing: 1px;
+            font-family:  $lato;
             
             h1 {
                 font-size: 1.4em;
                 margin-bottom: .2em;
+                font-family:  $rokkit;
 
                 @include media($large-screen) {
                     font-size: 1.8em;
@@ -306,7 +330,7 @@ header.navigation {
 
 // footer
 .footer {
-  $footer-background: desaturate(darken($base-accent-color, 20), 30);
+  $footer-background: desaturate(darken(#abd0e9, 20), 30);
   $footer-color: white;
   $footer-link-color: transparentize($footer-color, .6);
   $footer-disclaimer-color: transparentize($footer-color, .6);
@@ -353,6 +377,7 @@ header.navigation {
 
   li a {
     color: $footer-link-color;
+    font-family:  $lato;
 
     &:hover {
       color: transparentize($footer-color, 0);
@@ -361,9 +386,10 @@ header.navigation {
 
   li h3 {
     color: $footer-color;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 800;
     margin-bottom: .4em;
+    font-family:  $rokkit;
   }  
 
   hr {
@@ -379,6 +405,11 @@ header.navigation {
     margin: auto;
     max-width: 35em;
     text-align: center;
+    letter-spacing: 1px;
+
+    i {
+      color: lighten(orange, 20);
+    }
   }
 }
 
@@ -451,6 +482,7 @@ header.navigation {
       color: $grid-item-color;
       font-size: 1.3em;
       margin-bottom: .4em;
+      font-family:  $rokkit;
     }
 
   .grid-item p {
@@ -536,14 +568,18 @@ header.navigation {
   .bullet-content {
     margin-left: $icon-bullet-size *1.4;
     margin-bottom: 2em;
+    font-family:  $lato;
+    font-weight: lighter;
+    letter-spacing: 1px;
   }
 
   h2 {
     font-size: $icon-bullet-size /2.5;
     padding-top: $icon-bullet-size /7;
     margin-bottom: $icon-bullet-size /6;
-    border-bottom: 1px solid transparentize($base-font-color, .8);
+    //border-bottom: 1px solid transparentize($base-font-color, .8);
     display: inline-block;
+    font-family:  $rokkit;
   }
 }
 
@@ -556,6 +592,7 @@ header.navigation {
   $comment-background: lighten($base-accent-color, 15);
   $comment-detail-color: transparentize($comment-color, .5);
   $comment-image-vert-alignment: top;
+  font-family:  $lato;
 
   display: table;
   width: 100%;
@@ -596,12 +633,14 @@ header.navigation {
     width: 100%;
 
     h1 {
-      font-size: 1em;
+      font-size: 1.4em;
       margin-bottom: .5em;
+      font-family: $rokkit;
     }
 
     p {
       margin-bottom: .5em;
+      letter-spacing: .02em;
     }
 
     p.comment-detail {

@@ -4,12 +4,36 @@
 		"selected_items":
 		[
 			[
+				"base",
+				"base-font-color"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"r",
+				"rokkit"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
 				"pad",
 				"padding-bottom"
 			],
 			[
-				"mar",
-				"margin"
+				"ba",
+				"background-color"
 			],
 			[
 				"back",
@@ -18,18 +42,6 @@
 			[
 				"clear",
 				"clearfix"
-			],
-			[
-				"fon",
-				"font-size"
-			],
-			[
-				"te",
-				"text-align"
-			],
-			[
-				"ba",
-				"background-position"
 			],
 			[
 				"bakc",
@@ -56,10 +68,6 @@
 				"border-box"
 			],
 			[
-				"r",
-				"right"
-			],
-			[
 				"f",
 				"font-family"
 			],
@@ -70,10 +78,6 @@
 			[
 				"padd",
 				"padding-right"
-			],
-			[
-				"li",
-				"list-style"
 			],
 			[
 				"t",
@@ -231,30 +235,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "scss/style.scss",
-			"settings":
-			{
-				"buffer_size": 13080,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 10306,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "coffee/main.coffee",
-			"settings":
-			{
-				"buffer_size": 542,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -302,11 +282,14 @@
 	},
 	"file_history":
 	[
-		"/Users/mazhar/new-maze/coffee/main.coffee",
-		"/Users/mazhar/new-maze/coffee/main.js",
 		"/Users/mazhar/new-maze/scss/style.scss",
 		"/Users/mazhar/new-maze/index.html",
+		"/Users/mazhar/Desktop/Shape Hover Effect with SVG   Demo 2.html",
+		"/Users/mazhar/new-maze/css/portfolio.css",
+		"/Users/mazhar/new-maze/css/component.css",
 		"/Users/mazhar/new-maze/css/style.css",
+		"/Users/mazhar/new-maze/coffee/main.coffee",
+		"/Users/mazhar/new-maze/coffee/main.js",
 		"/Users/mazhar/new-maze/bitters/_bitters.scss",
 		"/Users/mazhar/new-maze/bourbon/_bourbon.scss",
 		"/Users/mazhar/new-maze/css/main.css",
@@ -426,10 +409,7 @@
 		"/Users/mazhar/mazhar266.github.io/css/style.css",
 		"/Users/mazhar/Desktop/smpl/theme rainyday/index.html",
 		"/Users/mazhar/Desktop/smpl/theme rainyday/assets/css/main.css",
-		"/Users/mazhar/Desktop/backup/view.html",
-		"/Users/mazhar/Desktop/backup/index.php",
-		"/Users/mazhar/Desktop/tarique_soh/soh/css/main.css",
-		"/Users/mazhar/Desktop/tarique_soh/html/css/main.css"
+		"/Users/mazhar/Desktop/backup/view.html"
 	],
 	"find":
 	{
@@ -520,97 +500,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "scss/style.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 13080,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5429,
-								5429
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3624.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10306,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9544,
-								9544
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3034.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "coffee/main.coffee",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 542,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								454,
-								454
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
