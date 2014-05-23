@@ -236,11 +236,11 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "new/index.html",
 			"settings":
 			{
-				"buffer_size": 8682,
-				"line_ending": "Windows"
+				"buffer_size": 18348,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -290,6 +290,7 @@
 	},
 	"file_history":
 	[
+		"/Users/mazhar/mazhar266.github.io/index.html",
 		"/Users/mazhar/new-maze/scss/style.scss",
 		"/Users/mazhar/new-maze/index.html",
 		"/Users/mazhar/Desktop/Shape Hover Effect with SVG   Demo 2.html",
@@ -408,7 +409,6 @@
 		"/Users/mazhar/Desktop/html5-boilerplate-4.3.0/js/vendor/jquery-1.11.0.min.map",
 		"/Users/mazhar/Desktop/rainyday.js-master/demo5.html",
 		"/Users/mazhar/Madefreshly-V2/application/views/themes/product_snippet.php",
-		"/Users/mazhar/mazhar266.github.io/index.html",
 		"/Users/mazhar/Desktop/shadowbox-3.0.3/shadowbox.js",
 		"/Users/mazhar/Desktop/tarique_soh/css/main.css",
 		"/Users/mazhar/Desktop/tarique_soh/home.html",
@@ -520,19 +520,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "new/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8682,
+						"buffer_size": 18348,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8237,
-								8237
+								6492,
+								6492
 							]
 						],
 						"settings":
@@ -541,7 +541,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3273.0,
+						"translation.y": 1966.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
