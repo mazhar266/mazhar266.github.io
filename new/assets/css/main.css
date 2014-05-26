@@ -8119,6 +8119,10 @@ img.mfp-img {
   .back-to-top {
     display: none !important;
   }
+
+  .skills .skill-name {
+    margin-bottom: 2em;
+  }
 }
 .back-to-top a {
   -webkit-border-radius: 2px;
