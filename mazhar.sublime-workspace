@@ -239,7 +239,7 @@
 			"file": "new/index.html",
 			"settings":
 			{
-				"buffer_size": 18459,
+				"buffer_size": 18269,
 				"line_ending": "Unix"
 			}
 		}
@@ -290,6 +290,7 @@
 	},
 	"file_history":
 	[
+		"/Users/mazhar/mazhar266.github.io/new/assets/css/main.css",
 		"/Users/mazhar/mazhar266.github.io/index.html",
 		"/Users/mazhar/new-maze/scss/style.scss",
 		"/Users/mazhar/new-maze/index.html",
@@ -416,12 +417,11 @@
 		"/Users/mazhar/Desktop/typing.html",
 		"/Users/mazhar/mazhar266.github.io/css/style.css",
 		"/Users/mazhar/Desktop/smpl/theme rainyday/index.html",
-		"/Users/mazhar/Desktop/smpl/theme rainyday/assets/css/main.css",
-		"/Users/mazhar/Desktop/backup/view.html"
+		"/Users/mazhar/Desktop/smpl/theme rainyday/assets/css/main.css"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -524,15 +524,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 18459,
+						"buffer_size": 18269,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17337,
-								17337
+								5387,
+								5387
 							]
 						],
 						"settings":
@@ -541,7 +541,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 6376.0,
+						"translation.y": 1570.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
