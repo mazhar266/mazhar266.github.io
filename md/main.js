@@ -26,5 +26,7 @@ $(function (){
 		// insert the html
 		$('#maze-loader').html (x);
 		console.log ('md file loaded');
+
+		document.write('<script src="strapdown.js"><\/script>');
 	});
 });
