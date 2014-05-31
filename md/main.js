@@ -15,14 +15,18 @@ function getURLParameterMaze (name) {
     return decodeURIComponent ((new RegExp ('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec (location.search) || [, ""])[1].replace(/\+/g, '%20')) || null;
 }
 
+// removes the ext from the last
+function removeExtMaze (name)
+{
+	return name.substr (0, name.lastIndexOf ('.'));
+}
+
 $(function (){
 	// body load
 	console.log ('js file loaded');
 	var filename = getURLParameterMaze ('file');
 	// update the title
-	var myTitle = makeTitlefromSlugMaze (filename);
-	myTitle = myTitle.substr (0, myTitle.lastIndexOf ('.'));
-	document.title = myTitle;
+	document.title = removeExtMaze (makeTitlefromSlugMaze (filename));
 
 	$.get (filename, function (x){
 		// insert the html
