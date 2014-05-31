@@ -29,6 +29,6 @@ $(function (){
 
 		console.log ("markdown: \n" + x)
 
-		document.write('<script src="strapdown.js"><\/script>');
+		//document.write('<script src="strapdown.js"><\/script>');
 	});
 });
