@@ -21,7 +21,7 @@ function removeExtMaze (name)
 	return name.substr (0, name.lastIndexOf ('.'));
 }
 
-
+$(function (){
 	// body load
 	console.log ('js file loaded');
 	var filename = getURLParameterMaze ('file');
@@ -37,3 +37,4 @@ function removeExtMaze (name)
 
 		document.write ('<script src="strapdown.js"><\/script>');
 	});
+});
