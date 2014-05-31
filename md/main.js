@@ -1,3 +1,10 @@
+/**
+ *
+ * File: main.js
+ * Author: Mazhar Ahmed
+ *
+ */
+
 // make the title from the slug
 function makeTitlefromSlugMaze (slug) {
     var words = slug.split ('-');
@@ -27,14 +34,14 @@ $(function (){
 	var filename = getURLParameterMaze ('file');
 	// update the title
 	document.title = removeExtMaze (makeTitlefromSlugMaze (filename));
-
+	// get the file
 	$.get (filename, function (x){
 		// insert the html
 		$('#maze-loader').html (x);
 		console.log ('md file loaded');
 
 		console.log ("markdown: \n" + x)
-
+		// now load the parser
 		document.write ('<script src="strapdown.js"><\/script>');
 	});
 });
