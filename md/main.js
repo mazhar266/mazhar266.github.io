@@ -27,6 +27,8 @@ $(function (){
 		$('#maze-loader').html (x);
 		console.log ('md file loaded');
 
+		console.log ("markdown: \n" + x)
+
 		document.write('<script src="strapdown.js"><\/script>');
 	});
 });
