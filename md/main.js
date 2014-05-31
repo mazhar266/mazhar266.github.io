@@ -1,5 +1,5 @@
 // make the title from the slug
-function makeTitle (slug) {
+function makeTitlefromSlugMaze (slug) {
     var words = slug.split ('-');
 
     for (var i = 0; i < words.length; i++) {
@@ -11,16 +11,18 @@ function makeTitle (slug) {
 }
 
 // gets the parameter from the url
-function getURLParameter (name) {
+function getURLParameterMaze (name) {
     return decodeURIComponent ((new RegExp ('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec (location.search) || [, ""])[1].replace(/\+/g, '%20')) || null;
 }
 
 $(function (){
 	// body load
 	console.log ('js file loaded');
-	var filename = getURLParameter ('file');
+	var filename = getURLParameterMaze ('file');
 	// update the title
-	document.title = makeTitle (filename);
+	var myTitle = makeTitlefromSlugMaze (filename);
+	myTitle = myTitle.substr (0, myTitle.lastIndexOf ('.'));
+	document.title = myTitle;
 
 	$.get (filename, function (x){
 		// insert the html
