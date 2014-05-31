@@ -417,6 +417,8 @@ var PR=win['PR']={'createSimpleLexer':createSimpleLexer,'registerLangHandler':re
 
   // Generate Markdown
   var html = marked(markdown);
+  // new line fix by Maze
+  html = html.replace("\n", "<br />");
   document.getElementById('content').innerHTML = html;
 
   // Prettify
