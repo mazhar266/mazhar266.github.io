@@ -28,6 +28,16 @@ function removeExtMaze (name)
 	return name.substr (0, name.lastIndexOf ('.'));
 }
 
+// returns only the filename
+function removeHostsMaze (name)
+{
+    if (name.lastIndexOf ('/')) {
+        return name.substr (name.lastIndexOf ('/'));
+    }
+
+    return name;
+}
+
 // loads a script on the fly
 function loadScriptMaze (url, callback)
 {
@@ -52,7 +62,7 @@ $(function (){
 	console.log ('js file loaded');
 	var filename = getURLParameterMaze ('file');
 	// update the title
-	document.title = removeExtMaze (makeTitlefromSlugMaze (filename));
+	document.title = removeHostsMaze (removeExtMaze (makeTitlefromSlugMaze (filename)));
 	// get the file
 	$.get (filename, function (x){
 		// insert the html
