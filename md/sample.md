@@ -3,13 +3,12 @@
 
 ----------
 
-
-**[ST](http://www.stsbd.com) Solutions Ltd**<br />
-Flat 3D, House 8, Road 4, Block C<br />
-Kaderabad Housing, Mohammadpur<br />
-Dhaka 1207<br />
-E-mail: [jobs@stsbd.com](mailto:jobs@stsbd.com)<br />
-URL: [www.stsbd.com](http://www.stsbd.com)<br />
+**[ST](http://www.stsbd.com) Solutions Ltd**
+Flat 3D, House 8, Road 4, Block C
+Kaderabad Housing, Mohammadpur
+Dhaka 1207
+E-mail: [jobs@stsbd.com](mailto:jobs@stsbd.com)
+URL: [www.stsbd.com](http://www.stsbd.com)
 Phone: (880) 1766 686096
 
 ----------
