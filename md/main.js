@@ -42,6 +42,6 @@ function removeExtMaze (name)
 
 		console.log ("markdown: \n" + x)
 		// now load the parser
-		document.write ('<script src="strapdown.js"><\/script>');
+		//document.write ('<script src="strapdown.js"><\/script>');
 	});
 //});
