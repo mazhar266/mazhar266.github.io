@@ -46,6 +46,7 @@ function loadScriptMaze (url, callback)
     head.appendChild(script);
 }
 
+// traditional scripts goes here
 $(function (){
 	// body load
 	console.log ('js file loaded');

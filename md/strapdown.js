@@ -414,11 +414,12 @@ var PR=win['PR']={'createSimpleLexer':createSimpleLexer,'registerLangHandler':re
   //
   // Markdown!
   //
-
+  
+  // new line fix by Maze
+  markdown = markdown.replace("\n", "<br />");
   // Generate Markdown
   var html = marked(markdown);
-  // new line fix by Maze
-  html = html.replace("\n", "<br />");
+  
   document.getElementById('content').innerHTML = html;
 
   // Prettify
