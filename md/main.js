@@ -32,7 +32,7 @@ function removeExtMaze (name)
 function removeHostsMaze (name)
 {
     if (name.lastIndexOf ('/')) {
-        return name.substr (name.lastIndexOf ('/'));
+        return name.substr (name.lastIndexOf ('/')+1);
     }
 
     return name;
