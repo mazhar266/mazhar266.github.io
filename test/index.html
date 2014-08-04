@@ -6,28 +6,45 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Awesome Bootstrap Boilerplate</title>
-        <meta name="description" content="Font Awesome Twitter Bootstrap HTML5 Boilerplate template" />
-        <meta name="keywords" content="HTML,HTML5,CSS,CSS3,awesome,font,fontawesome,boilerplate,twitter,twitter bootstrap,less" />
+        <title>Device responsive test</title>
         <meta name="author" content="Mazhar Ahmed">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <style type="text/css">
+            @-ms-viewport{
+                width: device-width;
+                zoom:1.0;
+            }
+             
+            @media (max-width: 400px) {
+                @-ms-viewport {
+                    width: 320px;
+                }
+            }
+        </style>
+        <script type="text/javascript">
+            (function() {
+                if ("-ms-user-select" in document.documentElement.style && navigator.userAgent.match(/IEMobile\/10\.0/)) {
+                    var msViewportStyle = document.createElement("style");
+                    msViewportStyle.appendChild(
+                        document.createTextNode("@-ms-viewport{width:auto!important}")
+                    );
+                    document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+                }
+            })();
+        </script>
     </head>
     <body>
+        <p>Click the button to display this window's height and width (NOT including toolbars and scrollbars).</p>
+        <button onclick="myFunction()">Try it</button>
+        <p id="demo"></p>
 
-<p>Click the button to display this window's height and width (NOT including toolbars and scrollbars).</p>
-
-<button onclick="myFunction()">Try it</button>
-
-<p id="demo"></p>
-
-<script>
-function myFunction() {
-    var w = window.innerWidth;
-    var h = window.innerHeight;
-    x = document.getElementById("demo");
-    x.innerHTML = "Width: " + w + " Heigth: " + h;
-}
-</script>
+        <script>
+            function myFunction() {
+                var w = window.innerWidth;
+                var h = window.innerHeight;
+                x = document.getElementById("demo");
+                x.innerHTML = "Width: " + w + " Heigth: " + h;
+            }
+        </script>
     </body>
 </html>
