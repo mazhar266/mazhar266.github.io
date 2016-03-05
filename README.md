@@ -12,6 +12,18 @@
 
 ###Credits
 
-Mazhar Ahmed<br>
-Director of Enginreering at [ST Solutions International LLC](http://www.stsbd.com)<br>
-[www.mazharAhmed.me](http://mazharahmed.me)
+####MAZHAR AHMED  
+  
+**ZCE, Full Stack LAMP & MEAN developer, Pythoneer**  
+Loves Java, AWS, Linode and Github  
+  
+**Designer, Illustrator, Brander, UI/UX Architect, Letterer, SASS Ninja**  
+Loves Sketch, Canva, Avocode, Webflow, UXPin and Balsamiq Mockups  
+  
+<i>Artist, Painter, Calligrapher, Photographer</i>  
+  
+  
+Phone: +8801712 999 908  
+
+LinkedIn: [http://www.linkedin.com/in/mightymaze](http://www.linkedin.com/in/mightymaze)  
+Blog: [www.mazharAhmed.me](http://www.mazharAhmed.me)  
