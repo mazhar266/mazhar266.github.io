@@ -23,7 +23,7 @@ Loves Sketch, Canva, Avocode, Webflow, UXPin and Balsamiq Mockups
 <i>Artist, Painter, Calligrapher, Photographer</i>  
   
   
-Phone: +8801712 999 908  
+Phone: [+8801712 999 908](tel:+8801712999908)  
 
 LinkedIn: [http://www.linkedin.com/in/mightymaze](http://www.linkedin.com/in/mightymaze)  
 Blog: [www.mazharAhmed.me](http://www.mazharAhmed.me)  
