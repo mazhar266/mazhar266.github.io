@@ -1,0 +1,16 @@
+<div class="isotope masonry isotope_fade" data-space="1px" data-size="brick" style="margin: -1px 0px 0px -1px;">
+    <!-- item loop starts here -->
+    <div ng-repeat="itm in item.items" class=" {{ item.showFilter(itm.filters) }} {{ item.showType(itm.type) }} isotope-item  brick-with-img">
+        <div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
+            <a href="content-portfolio-images-on-right.html" title="{{ itm.name }}" class="brick-link">
+                <div class="brick-hover-mask brick-hover">
+                    <h3 class="brick-title">{{ itm.name }}</h3>
+                </div>
+                <div class="brick-content">
+                    <img src="{{ itm.picture }}" class="attachment-imagebox-thumb wp-post-image" alt="{{ itm.name }}">
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- item loop ends here -->
+</div>

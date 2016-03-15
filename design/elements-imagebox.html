@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>IMAGEBOX | Aside Responsive HTML Theme</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <!-- Mobile Specific Metas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="./img/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" href="./img/favicon.ico">
+        
+        <!-- Google fonts styles -->
+        <link rel="stylesheet" id="google-fonts-Roboto-css" href="http://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C700%2C700italic%2C900%2C900italic&amp;ver=3.9.1" type="text/css" media="all">
+        <link rel="stylesheet" id="google-fonts-Playfair+Display-css" href="http://fonts.googleapis.com/css?family=Playfair+Display%3Aregular%2Citalic%2C700%2C700italic%2C900%2C900italic&amp;ver=3.9.1" type="text/css" media="all">
+
+        <!-- Aside styles -->
+        <link rel="stylesheet" id="bootstrap-css" href="./styles/bootstrap.css" type="text/css" media="screen">
+        <link rel="stylesheet" id="font-awesome-css" href="./styles/font-awesome.min.css" type="text/css" media="screen">
+        <link rel="stylesheet" id="pagebuild-css" href="./styles/pagebuild.css" type="text/css" media="screen">
+        <link rel="stylesheet" id="ux-aside-css" href="./styles/style.css" type="text/css" media="screen">
+        <link rel="stylesheet" id="icons-css" href="./styles/icons.css" type="text/css" media="screen">
+        
+        <!-- Jquery Lib version 1.11.0 -->
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        
+        <!-- IE hack -->
+        <!--[if lte IE 9]>
+        <link rel='stylesheet' id='cssie'  href='./styles/ie.css' type='text/css' media='screen' />
+        <![endif]-->
+        <!--[if lt IE 9]>
+        <script type="text/javascript" src="./js/ie.js"></script>
+        <link rel='stylesheet' id='cssie8'  href='./styles/ie8.css' type='text/css' media='screen' />
+        <![endif]-->
+        <!--[if lte IE 7]>
+        <div style="width: 100%;" class="messagebox_orange">Your browser is obsolete and does not support this webpage. Please use newer version of your browser or visit <a href="http://www.ie6countdown.com/" target="_new">Internet Explorer 6 countdown page</a>  for more information. </div>
+        <![endif]-->
+    </head>
+    <body class="home page page-template-default responsive-ux boxed-line aside-layout-ux">
+        <!-- Page Loading -->
+        <div class="page-loading visible">
+            <div class="page-loading-inn">
+                <div class="page-loading-transform">
+                    <div class="ux-loading"></div>
+                    <div class="ux-loading-transform">
+                        <div class="loading-dot1">&nbsp;</div>
+                        <div class="loading-dot2">&nbsp;</div>
+                    </div>
+                    <div class="site-loading-logo centered-ux">Aside</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Jplayer -->
+        <div id="jquery_jplayer" class="jp-jplayer"></div>
+        
+        <!--Mobild Header meta-->
+        <div id="mobile-header-meta">
+            
+            <!--Search Form-->
+            <form id="search_form" name="" method="get" class="search-form_header" action="http://ximudesign.com/aside/">
+                <input type="text" onblur="if (this.value == '') {this.value = 'SEARCH';}" onfocus="if (this.value == 'SEARCH') {this.value = '';}" id="s" name="s" value="SEARCH" class="textboxsearch">
+                <span class="submit-wrap">
+                    <input type="submit" value="" class="submitsearch" name="submitsearch">
+                    <i class="fa fa-long-arrow-right middle-ux"></i>
+                </span>
+            </form>
+    
+            <!--Social icons-->
+           <div class="social-icons-sidebar">         
+                <a class="icons-sidebar-unit" href="https://twitter.com/uiueux" title="Follow us"><i class="fa fa-twitter-square"></i></a>    
+                <a class="icons-sidebar-unit" href="https://www.facebook.com/Uiueux/" title="Follow us"><i class="fa fa-facebook-square"></i></a>
+                <a class="icons-sidebar-unit" href="#" title=""><i class="fa fa-google-plus-square"></i></a>
+                <a class="icons-sidebar-unit" href="https://www.youtube.com/" title=""><i class="fa fa-youtube-square"></i></a>
+            </div>
+
+            <div class="mobile-meta-con">
+                <div class="copyright">Copyright uiueux.com</div>
+            </div>
+            <!--End header-info-mobile-->
+
+        </div>
+        <!--End mobile-header-meta-->      
+        <div id="wrap">        
+            <!--Sidaber-->
+            <aside id="sidebar" class="sidebar_hide sidebar_hide_b">
+                <div id="sidebar-trigger">
+                    <div class="menu-icon"><i class="icon-m-menu"></i></div>
+                </div>
+                <!--End sidebar-trigger-->
+                <div class="sidebar-main">
+                      
+                    <!--Logo-->
+                    <h1 id="logo"><a href="index.html" title="Aside Responsive HTML Theme">Aside</a></h1>
+
+                    <!--Menu-->
+                    <nav id="navi" class=" clearfix">
+                        <div id="navi_wrap" class="menu-demo-menu-container">
+                            <ul class="menu">
+                                <li id="menu-item-885" class="menu-item menu-item-type-post_type menu-item-object-page page_item current_page_item menu-item-has-children">
+                                    <a href="index.html">HOME</a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-896" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="index-mixed.html">MIXED</a></li>
+                                        <li id="menu-item-895" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="index-fullscreen-slide.html">FULLSCREEN SLIDE</a></li>
+                                    </ul>
+                                </li>
+                                <li id="menu-item-883" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-883">
+                                    <a>PORTFOLIO</a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-889" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="portfolio-interblock.html">INTERLOCK PORTFOLIO</a></li>
+                                        <li id="menu-item-884" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="portfolio-grid-ajax.html">GRID AJAX PORTFOLIO</a></li>
+                                        <li id="menu-item-894" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="portfolio-brick-grey.html">BRICK GREY</a></li>
+                                        <li id="menu-item-928" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="portfolio-with-filter.html">PORTFOLIO WITH FILTER</a></li>
+                                    </ul>
+                                </li>
+                                <li id="menu-item-887" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                                    <a href="blog-standard.html">BLOG</a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-886" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="blog-masonry.html">MASONRY BLOG</a></li>
+                                    </ul>
+                                </li>
+                                <li id="menu-item-935" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                                    <a>PAGES</a>
+                                    <ul class="sub-menu">
+                                       <li id="menu-item-955" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="page-coming-soon.html">COMING SOON</a></li>
+                                        <li id="menu-item-942" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="page-about-us.html">ABOUT US</a></li>
+                                        <li id="menu-item-888" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="page-about-me.html">ABOUT ME</a></li>
+                                        <li id="menu-item-934" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="page-jobs.html">JOBS</a></li>
+                                    </ul>
+                                </li>
+                                <li id="menu-item-882" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children current-menu-item">
+                                    <a>ELEMENTS</a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-893" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="elements-typography.html">TYPOGRAPHY</a></li>
+                                        <li id="menu-item-892" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="elements-infographic.html">INFOGRAPHIC</a></li>
+                                        <li id="menu-item-891" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item"><a href="elements-imagebox.html">IMAGE BOX</a></li>
+                                        <li id="menu-item-890" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="elements-controls.html">CONTROLS</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--End #navi_wrap-->
+                    </nav>
+                    <!-- End Menu -->
+                    <div class="sidebar-bottom-wrap">
+                        <form id="search_form_1" name="" method="get" class="search-form_header" action="#">
+                            <input type="text" onblur="if (this.value == '') {this.value = 'SEARCH';}" onfocus="if (this.value == 'SEARCH') {this.value = '';}" id="search" name="search" value="SEARCH" class="textboxsearch">
+                            <span class="submit-wrap"><input type="submit" value="" class="submitsearch" name="submitsearch"><i class="fa fa-long-arrow-right middle-ux"></i></span>
+                        </form>
+                        <!--Social icons-->
+                        <div class="social-icons-sidebar">         
+                            <a class="icons-sidebar-unit" href="https://twitter.com/uiueux" title="Follow us"><i class="fa fa-twitter-square"></i></a>    
+                            <a class="icons-sidebar-unit" href="https://www.facebook.com/Uiueux/" title="Follow us"><i class="fa fa-facebook-square"></i></a>
+                            <a class="icons-sidebar-unit" href="#" title=""><i class="fa fa-google-plus-square"></i></a>           
+                            <a class="icons-sidebar-unit" href="https://www.youtube.com/" title=""><i class="fa fa-youtube-square"></i></a>
+                        </div>
+                        <!--End Social icons-->
+                        <div class="copyright">Copyright uiueux.com</div><!--End copyright-->
+                    </div>
+                    <!--END sidebar-bottom-wrap-->
+                </div>
+                <!--end sidebar-main-->
+            </aside>
+            <!--Header-->
+            <header id="header" class="">
+                <h1 id="logo-mobile"><a href="index.html" title="Aside Responsive HTML Theme">Aside</a></h1>    
+            </header>
+            <!--End Header-->
+            
+            <div id="main-wrap">
+                <div id="main" style="-webkit-transform-origin: 50% 665px;">
+                    <div id="content">
+                        <div id="post-360" class="post-360 page type-page status-publish hentry">
+                            <div class="row-fluid" >
+                                <div id="content_wrap" class="">
+                                    <div class="content-wrap-inn bottom-space ">
+                                        <div class="container">
+                                            <div class="title-bar-wrap " id="title-bar">
+                                                <div id="title-wrap">
+                                                    <div class="title-wrap-inn">
+                                                        <div id="main-title">
+                                                            <h1 class="main-title">ICON BOX &amp; IMAGE BOX</h1>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--End #title-wrap-->
+                                            </div>
+                                            <!--End #title-bar-wrap"-->
+                                        </div>
+                                        <div class="pagebuilder-wrap">
+                                            <div class="container">
+                                                <div class="row-fluid">
+                                                    <div class="span12 moudle bottom-space-60">
+                                                        <div data-post="20140404-060630-529"
+                                                            class="text_block ux-mod-nobg ">
+                                                            <h3>ICON BOX</h3>
+                                                            <p></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container">
+                                                <div class="row-fluid">
+                                                    <div class="span4 moudle from-top-translate bottom-space-40">
+                                                        <div data-animation="rorate" class="iocnbox icon_left ux-mod-nobg">
+                                                            <div class="icon_wrap">
+                                                                <i class="fa fa-external-link-square"></i>
+                                                            </div>
+                                                            <div class="icon_text">
+                                                                <h3>ICON ON LEFT 01</h3>
+                                                                <p>Mattis tristique tincidunt porttitor enim, turpis scelerisque, nascetur.</p>
+                                                                <p></p>
+                                                            </div>
+                                                            <!--End icon_text-->
+                                                        </div>
+                                                    </div>
+                                                    <div class="span4 moudle from-left-translate  bottom-space-40">
+                                                        <div data-animation="rorate"class="iocnbox icon_left ux-mod-nobg">
+                                                            <div class="icon_wrap">
+                                                                <i class="fa fa-cog"></i>
+                                                            </div>
+                                                            <div class="icon_text">
+                                                                <h3>ICON ON LEFT 02</h3>
+                                                                <p>Mattis tristique tincidunt porttitor enim, turpisscelerisque, nascetur.</p>
+                                                                <p></p>
+                                                            </div>
+                                                            <!--End icon_text-->
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="span4 moudle from-right-translate  bottom-space-40">
+                                                        <div data-animation="rorate" class="iocnbox icon_left ux-mod-nobg">
+                                                            <div class="icon_wrap">
+                                                                <i class="fa fa-bullseye"></i>
+                                                            </div>
+                                                            <div class="icon_text">
+                                                                <h3>ICON ON LEFT 03</h3>
+                                                                <p>Mattis tristique tincidunt porttitor enim, turpiscelerisque, nascetur.</p>
+                                                                <p></p>
+                                                            </div>
+                                                            <!--End icon_text-->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container">
+                                                <div class="row-fluid">
+                                                    <div class="span12 moudle" style="margin-bottom: 0px;">
+                                                        <div class="separator without-title  blank-divider height-40">
+                                                            <div class="separator_inn bg-" style="top: 8px; z-index: 0;"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container">
+                                                <div class="row-fluid">
+                                                    <div
+                                                        class="span4 moudle rotate-downleft-translate  bottom-space-40">
+                                                        <div data-animation="rorate" class="iocnbox icon_top iconbox-plus iconbox-plus-circle hover-rorate ux-mod-nobg">
+                                                            <!--End iconbox-plus-svg-wrap-->
+                                                            <div class="iconbox-plus-svg-wrap breath rorate">
+                                                                <svg xml:space="preserve"
+                                                                    enable-background="new 25.5 175.5 160 160"
+                                                                    viewBox="25.5 175.5 160 160" height="160px" width="160px"
+                                                                    y="0px" x="0px" id="iconbox-plus410" version="1.1">
+                                                                    <circle r="65" cy="258.5" cx="105.5" fill="#f67bb5"></circle></svg>
+                                                                <i class="fa fa-pagelines"></i>
+                                                            </div>
+                                                            <div class="icon_text">
+                                                                <h3>ITEM 01</h3>
+                                                                <p>Mattis tristique tincidunt porttitor enim, turpisscelerisque, nascetur.</p>
+                                                                <p></p>
+                                                            </div>
+                                                            <!--End icon_text-->
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="span4 moudle rotate-downright-translate  bottom-space-40">
+                                                        <div data-animation="flip" class="iocnbox icon_top iconbox-plus iconbox-plus-circle hover-flip ux-mod-nobg">
+                                                            <!--End iconbox-plus-svg-wrap-->
+                                                            <div class="iconbox-plus-svg-wrap breath flip">
+                                                                <svg xml:space="preserve"
+                                                                    enable-background="new 25.5 175.5 160 160"
+                                                                    viewBox="25.5 175.5 160 160" height="160px" width="160px"
+                                                                    y="0px" x="0px" id="iconbox-plus411" version="1.1">
+                                                                    <circle r="65" cy="258.5" cx="105.5" fill="#77c9e1"></circle></svg>
+                                                                <i class="fa fa-camera"></i>
+                                                            </div>
+                                                            <div class="icon_text">
+                                                                <h3>ITEM 02</h3>
+                                                                <p>Mattis tristique tincidunt porttitor enim, turpis scelerisque, nascetur.</p>
+                                                                <p></p>
+                                                            </div>
+                                                            <!--End icon_text-->
+                                                        </div>
+                                                    </div>
+                                                    <div class="span4 moudle">
+                                                        <div data-animation="scale"
+                                                            class="iocnbox icon_top iconbox-plus iconbox-plus-circle hover-scale ux-mod-nobg">
+                                                            <!--End iconbox-plus-svg-wrap-->
+                                                            <div class="iconbox-plus-svg-wrap breath scale">
+                                                                <svg xml:space="preserve"
+                                                                    enable-background="new 25.5 175.5 160 160"
+                                                                    viewBox="25.5 175.5 160 160" height="160px" width="160px"
+                                                                    y="0px" x="0px" id="iconbox-plus412" version="1.1">
+                                                                    <circle r="65" cy="258.5" cx="105.5" fill="#5a6b7f"></circle></svg>
+                                                                <i class="fa fa-video-camera"></i>
+                                                            </div>
+                                                            <div class="icon_text">
+                                                                <h3>ITEM 03</h3>
+                                                                <p>Mattis tristique tincidunt porttitor enim, turpis
+                                                                    scelerisque, nascetur.</p>
+                                                                <p></p>
+                                                            </div>
+                                                            <!--End icon_text-->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container">
+                                                <div class="row-fluid">
+                                                    <div class="span12 moudle" style="margin-bottom: 0px;">
+                                                        <div class="separator without-title  blank-divider height-80">
+                                                            <div class="separator_inn bg-" style="top: 8px; z-index: 0;"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container">
+                                                <div class="row-fluid">
+                                                    <div class="span12 moudle bottom-space-80">
+                                                        <div data-post="20140404-062211-952"
+                                                            class="text_block ux-mod-nobg ">
+                                                            <h3>IMAGE BOX</h3>
+                                                            <p></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container">
+                                                <div class="row-fluid">
+                                                    <div class="span4 moudle moudle_has_animation flip-x-translate animation-default-ux animation-scroll-ux  bottom-space-40  animation_hidden ">
+                                                        <section class="image-box ux-mod-nobg image-box-circle">
+                                                            <div class="image-box-svg-wrap shown">
+                                                                <svg height="160" width="160">
+                                                                    <defs>
+                                                                        <clipPath id="image-box421">
+                                                                        <circle r="80" cy="80" cx="80"></circle></clipPath>
+                                                                    </defs>
+                                                                    <image style="clip-path: url(#image-box421); width:160px; height:160px; " height="160" width="160" xlink:href="http://ximudesign.com/aside/wp-content/uploads/sites/17/2014/04/tumblr_mopqj9QUeq1st5lhmo1-400x400.jpg"></image>
+                                                                </svg>
+                                                            </div>
+                                                            <img width="400" height="400" src="http://ximudesign.com/aside/wp-content/uploads/sites/17/2014/04/tumblr_mopqj9QUeq1st5lhmo1-400x400.jpg"
+                                                                class="image-box-img-iehack" alt="tumblr_mopqj9QUeq1st5lhmo1">
+                                                            <h1>IMAGE BOX 01</h1>
+                                                        </section>
+                                                    </div>
+                                                    <div class="span4 moudle moudle_has_animation flip-y-translate animation-default-ux animation-scroll-ux  bottom-space-40  animation_hidden">
+                                                        <section class="image-box ux-mod-nobg image-box-circle">
+                                                            <div class="image-box-svg-wrap shown">
+                                                                <svg height="160" width="160">
+                                                                    <defs>
+                                                                        <clipPath id="image-box425">
+                                                                        <circle r="80" cy="80" cx="80"></circle></clipPath>
+                                                                    </defs>
+                                                                    <image style="clip-path: url(#image-box425); width:160px; height:160px; "
+                                                                        height="160" width="160"
+                                                                        xlink:href="http://ximudesign.com/aside/wp-content/uploads/sites/17/2014/04/Creative_Business_Card_Vol03_2-400x400.jpg"></image>
+                                                                </svg>
+                                                            </div>
+                                                            <img width="400" height="400"
+                                                                src="http://ximudesign.com/aside/wp-content/uploads/sites/17/2014/04/Creative_Business_Card_Vol03_2-400x400.jpg"
+                                                                class="image-box-img-iehack"
+                                                                alt="Creative_Business_Card_Vol03_2">
+                                                            <h1>IMAGE BOX 02</h1>
+                                                        </section>
+                                                    </div>
+                                                    <div class="span4 moudle moudle_has_animation bouncdein-down-translate animation-default-ux animation-scroll-ux  bottom-space-40  animation_hidden">
+                                                        <section class="image-box ux-mod-nobg image-box-circle">
+                                                            <div class="image-box-svg-wrap shown">
+                                                                <svg height="160" width="160">
+                                                                    <defs>
+                                                                        <clipPath id="image-box426">
+                                                                        <circle r="80" cy="80" cx="80"></circle></clipPath>
+                                                                    </defs>
+                                                                    <image style="clip-path: url(#image-box426); width:160px; height:160px; "
+                                                                        height="160" width="160"
+                                                                        xlink:href="http://ximudesign.com/aside/wp-content/uploads/sites/17/2014/03/Game-Changers-2-400x400.png"></image>
+                                                                </svg>
+                                                            </div>
+                                                            <img width="400" height="400"
+                                                                src="http://ximudesign.com/aside/wp-content/uploads/sites/17/2014/03/Game-Changers-2-400x400.png"
+                                                                class="image-box-img-iehack" alt="Game-Changers-2">
+                                                            <h1>IMAGE BOX 03</h1>
+                                                        </section>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container">
+                                                <div class="row-fluid">
+                                                    <div class="span12 moudle" style="margin-bottom: 0px;">
+                                                        <div class="separator without-title  blank-divider height-20">
+                                                            <div class="separator_inn bg-" style="top: 8px; z-index: 0;"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container">
+                                                <div class="row-fluid">
+                                                    <div class="span4 moudle moudle_has_animation bouncdein-down-translate animation-default-ux animation-scroll-ux  bottom-space-40  animation_hidden ">
+                                                        <section class="image-box ux-mod-nobg image-box-triangle">
+                                                            <div class="image-box-svg-wrap shown">
+                                                                <a href="#" target="_blank">
+                                                                    <svg height="160" width="160">
+                                                                        <defs>
+                                                                            <clipPath id="image-box427">
+                                                                            <path d="M7.738,145.805c-6.885,0-9.709-4.884-6.278-10.852L71.235,13.606c3.431-5.968,9.047-5.968,12.478,0 l69.775,121.348c3.431,5.967,0.606,10.851-6.277,10.851H7.738z"></path>                                </clipPath>
+                                                                        </defs>
+                                                                        <image style="clip-path: url(#image-box427); width:160px; height:160px; "
+                                                                            height="160" width="160"
+                                                                            xlink:href="http://ximudesign.com/aside/wp-content/uploads/sites/17/2014/03/Game-Changers-3-400x400.png"></image>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <img width="400" height="400"
+                                                                src="http://ximudesign.com/aside/wp-content/uploads/sites/17/2014/03/Game-Changers-3-400x400.png"
+                                                                class="image-box-img-iehack" alt="Game-Changers-3">
+                                                            <h1>IMAGE BOX 04</h1>
+                                                        </section>
+                                                    </div>
+                                                    <div class="span4 moudle moudle_has_animation bouncdein-left-translate animation-default-ux animation-scroll-ux  bottom-space-40  animation_hidden ">
+                                                        <section class="image-box ux-mod-nobg image-box-hexagonal">
+                                                            <div class="image-box-svg-wrap shown">
+                                                                <a href="#" target="_blank">
+                                                                    <svg height="160" width="160">
+                                                                        <defs>
+                                                                            <clipPath id="image-box428">
+                                                                                <path d="M48.797,149.5c-4.7,0-10.464-3.323-12.807-7.385L4.755,87.884c-2.34-4.062-2.34-10.707,0-14.771 l31.234-54.223c2.344-4.062,8.107-7.391,12.808-7.391h62.407c4.696,0,10.46,3.327,12.8,7.391l31.242,54.223 c2.338,4.063,2.338,10.71,0,14.771l-31.242,54.231c-2.34,4.062-8.104,7.385-12.8,7.385H48.797z"></path>
+                                                                            </clipPath>
+                                                                        </defs>
+                                                                        <image style="clip-path: url(#image-box428); width:160px; height:160px; "
+                                                                            height="160" width="160"
+                                                                            xlink:href="http://ximudesign.com/aside/wp-content/uploads/sites/17/2014/04/Danone-Magazine-11-400x400.jpg"></image>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <img width="400" height="400"
+                                                                src="http://ximudesign.com/aside/wp-content/uploads/sites/17/2014/04/Danone-Magazine-11-400x400.jpg"
+                                                                class="image-box-img-iehack" alt="TOY_face_">
+                                                            <h1>IMAGE BOX 05</h1>
+                                                        </section>
+                                                    </div>
+                                                    <div class="span4 moudle moudle_has_animation bouncdein-right-translate animation-default-ux animation-scroll-ux  bottom-space-40  animation_hidden">
+                                                        <section class="image-box ux-mod-nobg image-box-pentagon">
+                                                            <div class="image-box-svg-wrap shown">
+                                                                <a href="#" target="_blank">
+                                                                    <svg height="160"
+                                                                    width="160">
+                                                                        <defs>
+                                                                            <clipPath id="image-box429">
+                                                                                <path d="M83.339,129.159c-2.112-1.104-5.562-1.106-7.675,0l-39.981,20.896c-2.11,1.102-3.506,0.09-3.103-2.248
+                                                                                    l7.636-44.252c0.405-2.34-0.664-5.604-2.37-7.262L5.5,64.938c-1.707-1.654-1.175-3.287,1.182-3.627l44.708-6.463
+                                                                                    c2.357-0.34,5.15-2.361,6.206-4.49l19.983-40.265c1.06-2.124,2.782-2.124,3.843,0L101.4,50.357c1.057,2.127,3.848,4.15,6.207,4.49
+                                                                                    l44.711,6.463c2.354,0.342,2.889,1.973,1.183,3.627l-32.349,31.354c-1.705,1.657-2.772,4.922-2.368,7.263l7.628,44.25
+                                                                                    c0.404,2.34-0.992,3.35-3.1,2.248L83.339,129.159z"></path>
+                                                                            </clipPath>
+                                                                        </defs>
+                                                                        <image style="clip-path: url(#image-box429); width:160px; height:160px; "
+                                                                            height="160" width="160"
+                                                                            xlink:href="http://ximudesign.com/aside/wp-content/uploads/sites/17/2014/03/BS001-400x400.jpg"></image>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+
+                                                            <img width="400" height="400"
+                                                                src="http://ximudesign.com/aside/wp-content/uploads/sites/17/2014/03/BS001-400x400.jpg"
+                                                                class="image-box-img-iehack" alt="BS001">
+                                                            <h1>IMAGE BOX 06</h1>
+                                                        </section>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container">
+                                                <div class="row-fluid">
+                                                    <div class="span12 moudle" style="margin-bottom: 0px;">
+                                                        <div class="separator without-title  blank-divider height-20">
+                                                            <div class="separator_inn bg-" style="top: 8px; z-index: 0;"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container">
+                                                <div class="row-fluid">
+                                                    <div class="span4 moudle moudle_has_animation rotate-downright-translate animation-default-ux animation-scroll-ux bottom-space-40  animation_hidden">
+                                                        <section class="image-box ux-mod-nobg image-box-square">
+                                                            <div class="image-box-svg-wrap shown">
+                                                                <a href="#" target="_blank">
+                                                                    <svg height="160"
+                                                                        width="160">
+                                                                        <defs>
+                                                                            <clipPath id="image-box430">
+                                                                                <path
+                                                                                    d="M150.5,132c0,9.659-7.841,17.5-17.5,17.5H28c-9.669,0-17.5-7.841-17.5-17.5V27c0-9.659,7.831-17.5,17.5-17.5
+                                                                                    h105c9.659,0,17.5,7.841,17.5,17.5V132z"></path>
+                                                                            </clipPath>
+                                                                        </defs>
+                                                                        <image
+                                                                            style="clip-path: url(#image-box430); width:160px; height:160px; "
+                                                                            height="160" width="160"
+                                                                            xlink:href="http://ximudesign.com/aside/wp-content/uploads/sites/17/2014/04/Paper-Hot-Cup-Mock-Up-vol-2-400x400.jpg"></image>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <img width="400" height="400"
+                                                                src="http://ximudesign.com/aside/wp-content/uploads/sites/17/2014/04/Paper-Hot-Cup-Mock-Up-vol-2-400x400.jpg"
+                                                                class="image-box-img-iehack"
+                                                                alt="Paper-Hot-Cup-Mock-Up-vol-2">
+                                                            <h1>IMAGE BOX 05</h1>
+                                                        </section>
+                                                    </div>
+                                                    <div class="span4 moudle moudle_has_animation from-bottom-translate animation-default-ux animation-scroll-ux  bottom-space-40  animation_hidden">
+                                                        <section class="image-box ux-mod-nobg image-box-square">
+                                                            <div class="image-box-svg-wrap shown">
+                                                                <a href="#" target="_blank">
+                                                                    <svg height="160"
+                                                                        width="160">
+                                                                        <defs>
+                                                                            <clipPath id="image-box431">
+                                                                                <path
+                                                                                    d="M150.5,132c0,9.659-7.841,17.5-17.5,17.5H28c-9.669,0-17.5-7.841-17.5-17.5V27c0-9.659,7.831-17.5,17.5-17.5
+                                                                                    h105c9.659,0,17.5,7.841,17.5,17.5V132z"></path>
+                                                                            </clipPath>
+                                                                        </defs>
+                                                                        <image
+                                                                            style="clip-path: url(#image-box431); width:160px; height:160px; "
+                                                                            height="160" width="160"
+                                                                            xlink:href="http://ximudesign.com/aside/wp-content/uploads/sites/17/2014/03/Twin-Peaks-tribute-Character-design-400x400.jpg"></image>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <img width="400" height="400"
+                                                                src="http://ximudesign.com/aside/wp-content/uploads/sites/17/2014/03/Twin-Peaks-tribute-Character-design-400x400.jpg"
+                                                                class="image-box-img-iehack"
+                                                                alt="Twin-Peaks-tribute-Character-design">
+                                                            <h1>IMAGE BOX 07</h1>
+                                                        </section>
+                                                    </div>
+                                                    <div class="span4 moudle moudle_has_animation rotate-downleft-translate animation-default-ux animation-scroll-ux  bottom-space-40  animation_hidden">
+                                                        
+                                                        <section class="image-box ux-mod-nobg image-box-square">
+                                                            <div class="image-box-svg-wrap shown">
+                                                                <a href="#" target="_blank">
+                                                                    <svg height="160"
+                                                                        width="160">
+                                                                        <defs>
+                                                                            <clipPath id="image-box432">
+                                                                                <path
+                                                                                    d="M150.5,132c0,9.659-7.841,17.5-17.5,17.5H28c-9.669,0-17.5-7.841-17.5-17.5V27c0-9.659,7.831-17.5,17.5-17.5
+                                                                                    h105c9.659,0,17.5,7.841,17.5,17.5V132z"></path>
+                                                                            </clipPath>
+                                                                        </defs>
+                                                                        <image
+                                                                            style="clip-path: url(#image-box432); width:160px; height:160px; "
+                                                                            height="160" width="160"
+                                                                            xlink:href="http://ximudesign.com/aside/wp-content/uploads/sites/17/2014/04/Reacciónes-2-400x400.jpg"></image>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <img width="400" height="400"
+                                                                src="http://ximudesign.com/aside/wp-content/uploads/sites/17/2014/04/Reacciónes-2-400x400.jpg"
+                                                                class="image-box-img-iehack" alt="Reacciónes 2">
+                                                            <h1>IMAGE BOX 09</h1>
+                                                        </section>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--End content-wrap-inn-->
+                                </div>
+                                <!--end content_wrap-->
+                            </div>
+                        </div>
+                        <!--end post-->
+                    </div>
+                    <!--end content-->
+                </div>
+                <!--End #main-->        
+            </div>
+            <!--End #main-wrap-->
+            <div id="hot-close-sidebar-touch"></div>
+        </div><!--End #wrap-->    
+        <div id="float-bar" class="hidden-phone">
+            <div class="float-bar-inn-wrap">
+                <div class="float-bar-inn">
+                    <!--Social network share icon-->
+                    <div class="float-bar-social-share">
+                        <button class="social-share-facebook" onclick="javascript:window.open('http://www.facebook.com/share.php?u=http://ximudesign.com/aside/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-facebook"></i></button>
+
+                        <button class="social-share-twitter" onclick="javascript:window.open('https://twitter.com/share?url=http://ximudesign.com/aside/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-twitter"></i></button>
+
+                        <button class="social-share-google-plus" onclick="javascript:window.open('https://plus.google.com/share?url=http://ximudesign.com/aside/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-google-plus"></i></button>
+
+                        <button class="social-share-pinterest" onclick="javascript:window.open('http://pinterest.com/pin/create/bookmarklet/?url=http://ximudesign.com/aside/&amp;is_video=false&amp;media=','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-pinterest"></i></button>
+
+                        <button class="social-share-vk" onclick="javascript:window.open('http://vkontakte.ru/share.php?url=http://ximudesign.com/aside/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-vk"></i></button>
+
+                        <button class="social-share-linkedin" onclick="javascript:window.open('http://www.linkedin.com/shareArticle?mini=true&amp;url=http://ximudesign.com/aside/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-linkedin"></i></button>
+
+                    </div>
+                </div>
+                <!--End float inn wrap-->
+            </div><!--End float inn-->
+            <div id="float-bar-triggler"><i class="float-bar-triggler-inn"></i></div> 
+        </div>
+        <!--End #float bar-->
+    
+        <script type="text/javascript" src="./js/bootstrap.js"></script>
+        <script type="text/javascript" src="./js/waypoints.min.js"></script>
+        <script type="text/javascript" src="./js/main.js"></script>
+        <script type="text/javascript" src="./js/custom.theme.isotope.js"></script>
+        <script type="text/javascript" src="./js/custom.theme.js"></script>
+        <script type="text/javascript" src="./js/theme.pagebuilder.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function() {
+                var ux_pb = new ThemePageBuilder();
+                ux_pb.init();
+            });
+        </script>
+    </body>
+</html>
