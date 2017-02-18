@@ -1,0 +1,337 @@
+/* any custom application css goes in this file */
+/* -------------------------- */
+/* loading screen starts here */
+/* -------------------------- */
+html, body {
+    height: 100%;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+/* vertically center css */
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+a.logo {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* ------------------------ */
+/* loading screen ends here */
+/* ------------------------ */
+
+/* ------------------------ */
+/* login screen starts here */
+/* ------------------------ */
+
+h1.info {
+    margin-bottom: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #003767;
+}
+
+.input {
+    height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    background-color: #CCCCCC;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.input:active, .login-form input:focus {
+    background-color: #E2E2E2;
+}
+
+.input::-webkit-input-placeholder {
+   color: #FF7878;
+}
+
+.input:-moz-placeholder { /* Firefox 18- */
+   color: #FF7878;  
+}
+
+.input::-moz-placeholder {  /* Firefox 19+ */
+   color: #FF7878;  
+}
+
+.input:-ms-input-placeholder {  
+   color: #FF7878;  
+}
+
+.button {
+    width: 100%;
+    padding: 0;
+    height: 40px;
+    margin-top: 10px;
+    line-height: 40px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px !important;
+    font-weight: bold;
+    background-color: #F74141;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    
+    -webkit-box-shadow: 0 5px 0 0 #D83535;
+    box-shadow: 0 5px 0 0 #D83535;
+}
+
+/* ---------------------- */
+/* login screen ends here */
+/* ---------------------- */
+
+/* --------------------------- */
+/* register screen starts here */
+/* --------------------------- */
+
+.register-links {
+    margin-top: 10px;
+}
+
+.register-links span {
+    display: block;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    line-height: 14px;
+}
+
+.register-links span.grey {
+    color: #CCCCCC
+}
+
+.register-links .navy-blue {
+    color: #003767;
+}
+
+.register-links a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    margin: auto;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 55px;
+    text-align: center;
+    color: #fff;
+    background-color: #003767;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+/* ------------------------- */
+/* register screen ends here */
+/* ------------------------- */
+
+/* --------------------------- */
+/* register screen starts here */
+/* --------------------------- */
+
+span.error {
+    display: block;
+    width: 100%;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 9px;
+    color: #F74141;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* ------------------------- */
+/* register screen ends here */
+/* ------------------------- */
+
+/* --------------------------------- */
+/* register error screen starts here */
+/* --------------------------------- */
+
+span.big-error {
+    font-size: 10px;
+}
+
+span.big-error i {
+    font-size: 14px;
+}
+
+/* ------------------------------- */
+/* register error screen ends here */
+/* ------------------------------- */
+
+/* ------------------------ */
+/* admin screen starts here */
+/* ------------------------ */
+
+.off-canvas-wrapper, .off-canvas-wrapper-inner {
+    height: 100%;
+}
+
+#my-info {
+    height: 100%;
+    background-color: #fff;
+}
+
+.off-canvas-content {
+    height: 100%;
+    background-color: #052F49;
+}
+
+.off-canvas-content .title-bar {
+    background-color: #fff;
+}
+
+.off-canvas-content .title-bar button {
+    height: 45px;
+    width: 45px;
+    font-size: 30px;
+    color: #052F49;
+}
+
+.off-canvas-content .title-bar button::after {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+/* making the logo center */
+.off-canvas-content .title-bar-title {
+    position: absolute;
+    left: 50%;
+    top: 8px;
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.off-canvas-content .main-body {
+    position: relative;
+    height: calc(100% - 60px);
+    background-image: url(../img/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.off-canvas-content .main-body .search-holder {
+    padding: 10px;
+    background-color: #052F49;
+}
+
+.off-canvas-content .main-body .browse-by-category {
+    padding: 5px;
+    color: #fff;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.main-body .search-form {
+    padding: 0;
+    margin: 0;
+}
+
+.main-body .search-form .search {
+    margin-bottom: 0;
+    border: 2px solid #fff;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+.main-body .search-form .search::-webkit-input-placeholder {
+    text-indent: 10px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.main-body .search-form .search:-moz-placeholder { /* Firefox 18- */
+    text-indent: 10px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.main-body .search-form .search::-moz-placeholder {  /* Firefox 19+ */
+    text-indent: 10px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.main-body .search-form .search:-ms-input-placeholder {  
+    text-indent: 10px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.main-body .search-form a {
+    margin-top: 10px;
+    padding-left: 0;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    z-index: 100;
+    background-color: #052F49;
+}
+
+footer .docs-code-live {
+    padding-top: 18px;
+    text-align: center;
+}
+
+footer .button.prev {
+    color: #052F49;
+    text-transform: uppercase;
+    background-color: #fff;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+footer a.secondary {
+    width: 30px;
+    height: 30px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: transparent !important;
+}
+
+/* ---------------------- */
+/* admin screen ends here */
+/* ---------------------- */

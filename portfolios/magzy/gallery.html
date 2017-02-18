@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Magzy - Gallery</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="css/foundation.css"/>
+    <link rel="stylesheet" href="css/jquery.bxslider.css"/>
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css"/>
+    <link rel="stylesheet" href="style.css"/>
+
+
+    <!-- fonts+icons -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700,500,300,900,800,600,200,100' rel='stylesheet'
+          type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- scripts -->
+    <script src="js/vendor/modernizr.js"></script>
+
+</head>
+<body>
+
+<!--start header-->
+<header>
+    <!-- top-menu secion -->
+    <section class="fixed_1 top_menu">
+        <div class="row">
+            <div class="small-12 medium-4 large-4 columns">
+                <div class="left_top_menu">
+                    <ul class="inline-list">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Advertise</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="small-12 medium-4 large-4 columns">
+                <p class="text-center">Sunday, January, 25, 2015</p>
+            </div>
+            <div class="small-12 medium-4 large-4 columns">
+                <div class="social_icons right">
+                    <span>Follow Us</span>
+                    <ul class="inline-list">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <div class="fixed_2 row">
+        <!-- ico -->
+        <span class="right sub_menu"><a href="#"><i class="fa fa-angle-up"></i></a></span>
+    </div>
+
+    <!-- Logo+title -->
+    <section class="fixed_3 head_logo text-center">
+        <div class="row">
+            <h1>Magzy</h1>
+            <h6>Best Magazine Template For Your News and Visitors</h6>
+        </div>
+    </section>
+    <!-- Main Navigation -->
+    <section class="main_menu">
+        <div class="row">
+            <div class="small-12 medium-12 large-12 columns">
+                <div class="off-canvas-wrap" data-offcanvas>
+                    <div class="inner-wrap">
+                        <div class="hybrid-bar">
+                            <nav class="tab-bar">
+                                <div class="title-area">
+                                    <div class="name">
+                                        <h1><a href="#"></a></h1>
+                                    </div>
+                                </div>
+                                <section class="right-small show-for-small">
+                                    <a class="right-off-canvas-toggle menu-icon" id="togs-test"
+                                       href="#"><span></span></a>
+                                </section>
+                            </nav>
+                            <aside class="right-off-canvas-menu menu_list">
+                                <ul class="off-canvas-list">
+                                    <!-- <li class="show-for-small"><label>Foundation</label></li> -->
+                                    <li><a href="#">Home</a></li>
+                                    <li class="active"><a href="#">Fashoin</a></li>
+                                    <li><a href="#">Lifestyle</a></li>
+                                    <li><a href="#">Tech</a></li>
+                                    <li><a href="#">Design</a></li>
+                                    <li><a href="#">Travel</a></li>
+                                    <li><a href="#">Elements</a></li>
+
+                                    <!--start sub menu level-1-->
+                                    <li class="level_menu">
+                                        <a data-dropdown="drop1" aria-controls="drop1" aria-expanded="false">Blog
+                                            <i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i>
+                                        </a>
+                                        <ul id="drop1" class="f-dropdown content" data-dropdown-content
+                                            aria-hidden="true" tabindex="-1">
+                                            <li><a href="#">This is a link</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">This is another</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">Yet another</a></li>
+                                        </ul>
+
+                                        <!--<div id="drop2" data-dropdown-content class="f-dropdown content"-->
+                                        <!--aria-hidden="true"-->
+                                        <!--tabindex="-1">-->
+                                        <!--<p>-->
+                                        <!--Some text that people will think is awesome! Some text that people will-->
+                                        <!--think-->
+                                        <!--is awesome! Some text that people will think is awesome!-->
+                                        <!--<a href="javascript:void(0)">This is a link</a>-->
+                                        <!--</p>-->
+                                        <!--</div>-->
+                                    </li>
+
+                                    <!--end sub menu level-1-->
+
+
+                                    <li class="searchbox">
+                                        <div id="sb-search" class="sb-search ">
+                                            <form>
+                                                <input class="sb-search-input " onkeyup="buttonUp();"
+                                                       placeholder="Enter your search term..." onblur="monkey();"
+                                                       type="search" value="" name="search" id="search">
+                                                <input class="sb-search-submit" type="submit" value="">
+                                                <span class="sb-icon-search"><i class="fa fa-search"></i></span>
+                                            </form>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </aside>
+                            <section class="main-section">
+
+                            </section>
+                        </div>
+
+                        <!-- overlay contents here -->
+
+                        <!-- /home-features & overlay contents end -->
+                        <a class="exit-off-canvas"></a>
+                    </div>
+                </div>
+                <!--end  off-canvas-wrap-->
+            </div>
+        </div>
+    </section>
+    <!-- /main menu -->
+
+</header>
+<!--end header-->
+
+
+<!--start gallery category header-->
+<div class="row">
+    <!--start col-->
+    <div class="small-centered small-12 medium-12 large-12 columns">
+        <!--start gallery category wrapper-->
+        <div class="gallery_category_wrapper box_shadow">
+            <!--start left red colored bar-->
+            <div class="origin_title_left_bar">
+            </div>
+            <!--start left red colored bar-->
+
+            <!--start gallery category content-->
+            <h3>
+                Choose Gallery Category
+            </h3>
+
+            <div class="gallery_category_item">
+                <span class="item">
+                    <a data-filter="all" id="all" class="filter custom_active gallery_category"
+                       href="javascript:void(0)">All</a>
+                </span>
+                <span class="item">
+                    <a data-filter=".fashion_content" id="fashion" class="filter gallery_category"
+                       href="javascript:void(0)">Fashion</a>
+                </span>
+                <span class="item">
+                    <a data-filter=".lifestyle_content" id="life_style" class="filter gallery_category"
+                       href="javascript:void(0)">Lifestyle</a>
+                </span>
+                <span class="item">
+                    <a data-filter=".tech_content" id="tech" class="filter gallery_category" href="javascript:void(0)">Tech</a>
+                </span>
+                <span class="item">
+                    <a data-filter=".design_content" id="design" class="filter gallery_category"
+                       href="javascript:void(0)">Design</a>
+                </span>
+                <span class="item">
+                    <a data-filter=".travel_content" id="travel" class="filter gallery_category"
+                       href="javascript:void(0)">Travel</a>
+                </span>
+                <span class="item">
+                    <a data-filter=".photography_content" id="photography" class="filter gallery_category"
+                       href="javascript:void(0)">Photography</a>
+                </span>
+            </div>
+            <!--end gallery category content-->
+        </div>
+        <!--end gallery category wrapper-->
+    </div>
+    <!--end col-->
+</div>
+<!--end gallery category header-->
+
+<!--start all category body-->
+<div id="all_gallery_body" class="category_body">
+<!--start gallery content row 1-->
+<div class="row ">
+<!--start first column-->
+<div class="mix fashion_content small-12 medium-6 large-3 columns clearfix">
+    <!--start item_wrapper-->
+    <div class="item_wrapper box_shadow">
+        <!--start image div-->
+        <div class="img_wrapper">
+            <a href="#"><img src="images/gallery_1.jpg"/></a>
+        </div>
+        <!--end image div-->
+        <!--start title div-->
+        <h6 class="">
+            <a href="#">Nulla pretium vehicula livero, eu viverra leo pellentesque</a>
+        </h6>
+        <!--end title div-->
+        <!--start short_des div-->
+        <p>
+            Curabitur vel scelerisque neque. Donec ullamcorper,
+            nisl a retrum fermentum, nulla enim augue
+        </p>
+        <!--end short_des div-->
+    </div>
+    <!--end item_wrapper-->
+</div>
+<!--end first column-->
+
+<!--start second column-->
+<div class="mix lifestyle_content small-12 medium-6 large-3 columns clearfix">
+    <!--start item_wrapper-->
+    <div class="item_wrapper box_shadow">
+        <!--start image div-->
+        <div class="img_wrapper">
+            <a href="#"><img src="images/gallery_2.jpg"/></a>
+        </div>
+        <!--end image div-->
+        <!--start title div-->
+        <h6 class="">
+            <a href="#">Nulla pretium vehicula livero, eu viverra leo pellentesque</a>
+        </h6>
+        <!--end title div-->
+        <!--start short_des div-->
+        <p>
+            Curabitur vel scelerisque neque. Donec ullamcorper,
+            nisl a retrum fermentum, nulla enim augue
+        </p>
+        <!--end short_des div-->
+    </div>
+    <!--end item_wrapper-->
+</div>
+<!--end second column-->
+
+<!--start third column-->
+<div class="mix fashion_content small-12 medium-6 large-3 columns clearfix">
+    <!--start item_wrapper-->
+    <div class="item_wrapper box_shadow">
+        <!--start image div-->
+        <div class="img_wrapper">
+            <a href="#"><img src="images/gallery_3.jpg"/></a>
+        </div>
+        <!--end image div-->
+        <!--start title div-->
+        <h6 class="">
+            <a href="#">Nulla pretium vehicula livero, eu viverra leo pellentesque</a>
+        </h6>
+        <!--end title div-->
+        <!--start short_des div-->
+        <p>
+            Curabitur vel scelerisque neque. Donec ullamcorper,
+            nisl a retrum fermentum, nulla enim augue
+        </p>
+        <!--end short_des div-->
+    </div>
+    <!--end item_wrapper-->
+</div>
+<!--end third column-->
+
+<!--start fourth column-->
+<div class="mix  fashion_content tech_content small-12 medium-6 large-3 columns clearfix">
+    <!--start item_wrapper-->
+    <div class="item_wrapper box_shadow">
+        <!--start image div-->
+        <div class="img_wrapper">
+            <a href="#"><img src="images/gallery_4.jpg"/></a>
+        </div>
+        <!--end image div-->
+        <!--start title div-->
+        <h6 class="">
+            <a href="#">Nulla pretium vehicula livero, eu viverra leo pellentesque</a>
+        </h6>
+        <!--end title div-->
+        <!--start short_des div-->
+        <p>
+            Curabitur vel scelerisque neque. Donec ullamcorper,
+            nisl a retrum fermentum, nulla enim augue
+        </p>
+        <!--end short_des div-->
+    </div>
+    <!--end item_wrapper-->
+</div>
+<!--end fourth column-->
+
+<!--start first column-->
+<div class="mix photography_content small-12 medium-6 large-3 columns clearfix">
+    <!--start item_wrapper-->
+    <div class="item_wrapper box_shadow">
+        <!--start image div-->
+        <div class="img_wrapper">
+            <a href="#"><img src="images/gallery_5.jpg"/></a>
+        </div>
+        <!--end image div-->
+        <!--start title div-->
+        <h6 class="">
+            <a href="#">Nulla pretium vehicula livero, eu viverra leo pellentesque</a>
+        </h6>
+        <!--end title div-->
+        <!--start short_des div-->
+        <p>
+            Curabitur vel scelerisque neque. Donec ullamcorper,
+            nisl a retrum fermentum, nulla enim augue
+        </p>
+        <!--end short_des div-->
+    </div>
+    <!--end item_wrapper-->
+</div>
+<!--end first column-->
+
+<!--start second column-->
+<div class="mix travel_content small-12 medium-6 large-3 columns clearfix">
+    <!--start item_wrapper-->
+    <div class="item_wrapper box_shadow">
+        <!--start image div-->
+        <div class="img_wrapper">
+            <a href="#"><img src="images/gallery_6.jpg"/></a>
+        </div>
+        <!--end image div-->
+        <!--start title div-->
+        <h6 class="">
+            <a href="#">Nulla pretium vehicula livero, eu viverra leo pellentesque</a>
+        </h6>
+        <!--end title div-->
+        <!--start short_des div-->
+        <p>
+            Curabitur vel scelerisque neque. Donec ullamcorper,
+            nisl a retrum fermentum, nulla enim augue
+        </p>
+        <!--end short_des div-->
+    </div>
+    <!--end item_wrapper-->
+</div>
+<!--end second column-->
+
+<!--start third column-->
+<div class="mix small-12 medium-6 large-3 columns clearfix">
+    <!--start item_wrapper-->
+    <div class="item_wrapper box_shadow">
+        <!--start image div-->
+        <div class="img_wrapper">
+            <a href="#"><img src="images/gallery_7.jpg"/></a>
+        </div>
+        <!--end image div-->
+        <!--start title div-->
+        <h6 class="">
+            <a href="#">Nulla pretium vehicula livero, eu viverra leo pellentesque</a>
+        </h6>
+        <!--end title div-->
+        <!--start short_des div-->
+        <p>
+            Curabitur vel scelerisque neque. Donec ullamcorper,
+            nisl a retrum fermentum, nulla enim augue
+        </p>
+        <!--end short_des div-->
+    </div>
+    <!--end item_wrapper-->
+</div>
+<!--end third column-->
+
+<!--start fourth column-->
+<div class="mix lifestyle_content  small-12 medium-6 large-3 columns clearfix">
+    <!--start item_wrapper-->
+    <div class="item_wrapper box_shadow">
+        <!--start image div-->
+        <div class="img_wrapper">
+            <a href="#"><img src="images/gallery_8.jpg"/></a>
+        </div>
+        <!--end image div-->
+        <!--start title div-->
+        <h6 class="">
+            <a href="#">Nulla pretium vehicula livero, eu viverra leo pellentesque</a>
+        </h6>
+        <!--end title div-->
+        <!--start short_des div-->
+        <p>
+            Curabitur vel scelerisque neque. Donec ullamcorper,
+            nisl a retrum fermentum, nulla enim augue
+        </p>
+        <!--end short_des div-->
+    </div>
+    <!--end item_wrapper-->
+</div>
+<!--end fourth column-->
+
+<!--end gallery content row 2-->
+
+<!--start gallery content row 3-->
+
+<!--start first column-->
+<div class="mix lifestyle_content small-12 medium-6 large-3 columns design_content clearfix">
+    <!--start item_wrapper-->
+    <div class="item_wrapper box_shadow">
+        <!--start image div-->
+        <div class="img_wrapper">
+            <a href="#"><img src="images/gallery_9.jpg"/></a>
+        </div>
+        <!--end image div-->
+        <!--start title div-->
+        <h6 class="">
+            <a href="#">Nulla pretium vehicula livero, eu viverra leo pellentesque</a>
+        </h6>
+        <!--end title div-->
+        <!--start short_des div-->
+        <p>
+            Curabitur vel scelerisque neque. Donec ullamcorper,
+            nisl a retrum fermentum, nulla enim augue
+        </p>
+        <!--end short_des div-->
+    </div>
+    <!--end item_wrapper-->
+</div>
+<!--end first column-->
+
+<!--start second column-->
+<div class="mix tech_content  travel_content small-12 medium-6 large-3 columns clearfix">
+    <!--start item_wrapper-->
+    <div class="item_wrapper box_shadow">
+        <!--start image div-->
+        <div class="img_wrapper">
+            <a href="#"><img src="images/gallery_10.jpg"/></a>
+        </div>
+        <!--end image div-->
+        <!--start title div-->
+        <h6 class="">
+            <a href="#">Nulla pretium vehicula livero, eu viverra leo pellentesque</a>
+        </h6>
+        <!--end title div-->
+        <!--start short_des div-->
+        <p>
+            Curabitur vel scelerisque neque. Donec ullamcorper,
+            nisl a retrum fermentum, nulla enim augue
+        </p>
+        <!--end short_des div-->
+    </div>
+    <!--end item_wrapper-->
+</div>
+<!--end second column-->
+
+<!--start third column-->
+<div class="mix tech_content  travel_content small-12 medium-6 large-3 columns clearfix">
+    <!--start item_wrapper-->
+    <div class="item_wrapper box_shadow">
+        <!--start image div-->
+        <div class="img_wrapper">
+            <a href="#"><img src="images/gallery_11.jpg"/></a>
+        </div>
+        <!--end image div-->
+        <!--start title div-->
+        <h6 class="">
+            <a href="#">Nulla pretium vehicula livero, eu viverra leo pellentesque</a>
+        </h6>
+        <!--end title div-->
+        <!--start short_des div-->
+        <p>
+            Curabitur vel scelerisque neque. Donec ullamcorper,
+            nisl a retrum fermentum, nulla enim augue
+        </p>
+        <!--end short_des div-->
+    </div>
+    <!--end item_wrapper-->
+</div>
+<!--end third column-->
+
+<!--start fourth column-->
+<div class="mix tech_content small-12 medium-6 large-3 columns travel_content clearfix">
+    <!--start item_wrapper-->
+    <div class="item_wrapper box_shadow">
+        <!--start image div-->
+        <div class="img_wrapper">
+            <a href="#"><img src="images/gallery_12.jpg"/></a>
+        </div>
+        <!--end image div-->
+        <!--start title div-->
+        <h6 class="">
+            <a href="#">Nulla pretium vehicula livero, eu viverra leo pellentesque</a>
+        </h6>
+        <!--end title div-->
+        <!--start short_des div-->
+        <p>
+            Curabitur vel scelerisque neque. Donec ullamcorper,
+            nisl a retrum fermentum, nulla enim augue
+        </p>
+        <!--end short_des div-->
+    </div>
+    <!--end item_wrapper-->
+</div>
+<!--end fourth column-->
+</div>
+<!--end gallery content row 3-->
+
+</div>
+<!--end all category body-->
+
+<!-- footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <!-- widget 1 -->
+            <div class="small-12 medium-3 large-3 columns">
+                <div class="about footer_widget">
+                    <h1>Magzy</h1>
+
+                    <p>Etiam consequat ipsum nec molestie consequat. Curabitur nec ante venenatis, consectetur felis
+                        nec, lacinia libero. Aenean ut ipsum in erat pulvinar rutrum sit amet ut libero. Phasellus nec
+                        placerat sem, non rutrum lacus. Vivamus a massa ac libero eleifend semper. Aenean pretium, urna
+                        ac malesuada laoreet. Maecenas placerat erat lectus, varius.</p>
+                </div>
+            </div>
+            <!-- /widget 1 -->
+            <!-- widget 2 -->
+            <div class="small-12 medium-3 large-3 columns">
+                <div class="support_link footer_widget">
+                    <h6 class="title">Support Links</h6>
+                    <ul>
+                        <li><a href="#">In posuere ultricies leo utrum diam id</a></li>
+                        <li><a href="#">Mauris rhoncus iaculis ultrices arcu vitae</a></li>
+                        <li><a href="#">Maecenas placerat erat semper non sodales</a></li>
+                        <li><a href="#">Etiam finibus sem velit amet mauris sed</a></li>
+                        <li><a href="#">Suspendisse elementum fermentum lobortis</a></li>
+                        <li><a href="#">Sed blandit volutpat erat vitae</a></li>
+                        <li><a href="#">Sed pharetra metus ipsum augue</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /widget 2 -->
+
+            <!-- widget 3 -->
+            <div class="small-12 medium-3 large-3 columns">
+                <div class="gallery footer_widget footer_masonrygallery">
+                    <ul>
+                        <li class="item">
+                            <a href="images/1.jpg" data-lightbox="gallery_name"
+                               data-title="Your Image Caption"><img src="images/1.jpg"></a>
+                        </li>
+                        <li class="item">
+                            <a href="images/2.jpg" data-lightbox="gallery_name"
+                               data-title="Your Image Caption"><img src="images/2.jpg"></a>
+                        </li>
+                        <li class="item">
+                            <a href="images/3.jpg" data-lightbox="gallery_name"
+                               data-title="Your Image Caption"><img src="images/3.jpg"></a>
+                        </li>
+                        <li class="item">
+                            <a href="images/4.jpg" data-lightbox="gallery_name"
+                               data-title="Your Image Caption"><img src="images/4.jpg"></a>
+                        </li>
+                        <li class="item">
+                            <a href="images/1.jpg" data-lightbox="gallery_name"
+                               data-title="Your Image Caption"><img src="images/3.jpg"></a>
+                        </li>
+
+                        <li class="item">
+                            <a href="images/2.jpg" data-lightbox="gallery_name"
+                               data-title="Your Image Caption"><img src="images/2.jpg"></a>
+                        </li>
+                        <li class="item">
+                            <a href="images/1.jpg" data-lightbox="gallery_name"
+                               data-title="Your Image Caption"><img src="images/1.jpg"></a>
+                        </li>
+                        <li class="item">
+                            <a href="images/1.jpg" data-lightbox="gallery_name"
+                               data-title="Your Image Caption"><img src="images/1.jpg"></a>
+                        </li>
+                        <li class="item">
+                            <a href="images/2.jpg" data-lightbox="gallery_name"
+                               data-title="Your Image Caption"><img src="images/2.jpg"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /widget 3 -->
+
+            <!-- widget 4 -->
+            <div class="small-12 medium-3 large-3 columns">
+                <div class="recent_posts footer_widget">
+                    <h6 class="title">Some Posts</h6>
+
+                    <div class="post_list">
+
+                        <div class="single_post">
+                            <div class="avatar">
+                                <a href="#"><img src="images/obama.png"></a>
+                            </div>
+                            <div class="desc">
+                                <p class="title"><a href="#">Donec fermentum, orci eget faucibus dapibus</a></p>
+
+                                <p class="date">Jan. 22. 2015 </p>
+                            </div>
+                        </div>
+
+                        <div class="single_post">
+                            <div class="avatar">
+                                <a href="#"><img src="images/obama.png"></a>
+                            </div>
+                            <div class="desc">
+                                <p class="title"><a href="#">Donec fermentum, orci eget faucibus dapibus</a></p>
+
+                                <p class="date">Jan. 22. 2015 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /widget 4 -->
+
+
+        </div>
+
+        <section class="footer_copy">
+            <div class="row">
+                <div class="small-12 medium-3 large-3 columns">
+                    <span class="copyright">Copyright (c) 2015 NewsMag. All rights reserved   </span>
+                </div>
+                <div class="small-12 medium-3 large-3 columns">
+                    <span class="privacy"><a href="#">Privacy Policy</a></span> <span> | </span> <span class="terms"><a
+                        href="#">Terms and Conditions</a></span>
+                </div>
+                <div class="small-12 medium-3 large-3 columns">
+                    <!-- <span class="privacy">Privacy Policy</span> <span> | </span> <span class="terms">Terms and Conditions</span> -->
+                </div>
+                <div class="small-12 medium-3 large-3 columns">
+                    <ul class="footer_links inline-list right">
+                        <li><a href="">About</a></li>
+                        <li><a href="">Advertise</a></li>
+                        <li><a href="">COntact Us</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+
+    </div>
+</footer>
+<!-- /footer -->
+
+
+<!-- vendor scripts -->
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/modernizr.js"></script>
+<!-- foundation - scripts -->
+<script src="js/foundation.min.js"></script>
+<script src="js/foundation/foundation.abide.js"></script>
+<script src="js/foundation/accordion.abide.js"></script>
+<script src="js/foundation/alert.abide.js"></script>
+<script src="js/foundation/clearing.abide.js"></script>
+<script src="js/foundation/foundation.dropdown.js"></script>
+<script src="js/foundation/foundation.equalizer.js"></script>
+<script src="js/foundation/foundation.interchange.js"></script>
+<script src="js/foundation/foundation.joyride.js"></script>
+<script src="js/foundation/foundation.magellan.js"></script>
+<script src="js/foundation/foundation.offcanvas.js"></script>
+<script src="js/foundation/foundation.reveal.js"></script>
+<script src="js/foundation/foundation.slider.js"></script>
+<script src="js/foundation/foundation.tab.js"></script>
+<script src="js/foundation/foundation.tooltip.js"></script>
+<script src="js/foundation/foundation.topbar.js"></script>
+<script src="js/foundation/jquery.cookie.js"></script>
+
+
+<!-- bx slider -->
+<script src="js/bx/jquery.bxslider.min.js"></script>
+<script src="js/bx/jquery.easing.1.3.js"></script>
+<script src="js/bx/jquery.fitvids.js"></script>
+
+<!-- Masonry gallery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.0/masonry.pkgd.min.js"></script>
+<!-- lightbox - 2 -->
+<script type="text/javascript" src="js/lightbox.min.js"></script>
+
+<!--jquery mixitup-->
+<script src="js/jquery.mixitup.min.js"></script>
+<!--custom js-->
+<script src="js/custom.js"></script>
+<script src="js/pages/gallery.js"></script>
+</body>
+</html>

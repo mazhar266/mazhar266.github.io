@@ -1,0 +1,1368 @@
+/* stylesheet document */
+@import '../fonts/museo-slab/stylesheet';
+
+// variables
+@import 'variables';
+
+/* windows mobile 8 responsive fix */
+@-ms-viewport{
+    width: device-width;
+    zoom:1.0;
+}
+ 
+@media (max-width: 400px) {
+    @-ms-viewport {
+        width: 320px;
+    }
+}
+
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+/* some default rules are applied */
+body {
+	/* long text without whitespace link break fix */
+	word-wrap: break-word;
+	/*white-space: pre-wrap;*/
+	/* font smoothing */
+	-webkit-font-smoothing: subpixel-antialiased;
+	/*-moz-osx-font-smoothing: grayscale;
+	-webkit-text-stroke: .2px;*/
+}
+
+/* reset css of an element */
+.reset-this {
+    animation : none;
+    animation-delay : 0;
+    animation-direction : normal;
+    animation-duration : 0;
+    animation-fill-mode : none;
+    animation-iteration-count : 1;
+    animation-name : none;
+    animation-play-state : running;
+    animation-timing-function : ease;
+    backface-visibility : visible;
+    background : 0;
+    background-attachment : scroll;
+    background-clip : border-box;
+    background-color : transparent;
+    background-image : none;
+    background-origin : padding-box;
+    background-position : 0 0;
+    background-position-x : 0;
+    background-position-y : 0;
+    background-repeat : repeat;
+    background-size : auto auto;
+    border : 0;
+    border-style : none;
+    border-width : medium;
+    border-color : inherit;
+    border-bottom : 0;
+    border-bottom-color : inherit;
+    border-bottom-left-radius : 0;
+    border-bottom-right-radius : 0;
+    border-bottom-style : none;
+    border-bottom-width : medium;
+    border-collapse : separate;
+    border-image : none;
+    border-left : 0;
+    border-left-color : inherit;
+    border-left-style : none;
+    border-left-width : medium;
+    border-radius : 0;
+    border-right : 0;
+    border-right-color : inherit;
+    border-right-style : none;
+    border-right-width : medium;
+    border-spacing : 0;
+    border-top : 0;
+    border-top-color : inherit;
+    border-top-left-radius : 0;
+    border-top-right-radius : 0;
+    border-top-style : none;
+    border-top-width : medium;
+    bottom : auto;
+    box-shadow : none;
+    box-sizing : content-box;
+    caption-side : top;
+    clear : none;
+    clip : auto;
+    color : inherit;
+    columns : auto;
+    column-count : auto;
+    column-fill : balance;
+    column-gap : normal;
+    column-rule : medium none currentColor;
+    column-rule-color : currentColor;
+    column-rule-style : none;
+    column-rule-width : none;
+    column-span : 1;
+    column-width : auto;
+    content : normal;
+    counter-increment : none;
+    counter-reset : none;
+    cursor : auto;
+    direction : ltr;
+    display : inline;
+    empty-cells : show;
+    float : none;
+    font : normal;
+    font-family : inherit;
+    font-size : medium;
+    font-style : normal;
+    font-variant : normal;
+    font-weight : normal;
+    height : auto;
+    hyphens : none;
+    left : auto;
+    letter-spacing : normal;
+    line-height : normal;
+    list-style : none;
+    list-style-image : none;
+    list-style-position : outside;
+    list-style-type : disc;
+    margin : 0;
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    max-height : none;
+    max-width : none;
+    min-height : 0;
+    min-width : 0;
+    opacity : 1;
+    orphans : 0;
+    outline : 0;
+    outline-color : invert;
+    outline-style : none;
+    outline-width : medium;
+    overflow : visible;
+    overflow-x : visible;
+    overflow-y : visible;
+    padding : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    page-break-after : auto;
+    page-break-before : auto;
+    page-break-inside : auto;
+    perspective : none;
+    perspective-origin : 50% 50%;
+    position : static;
+    /* May need to alter quotes for different locales (e.g fr) */
+    quotes : '\201C' '\201D' '\2018' '\2019';
+    right : auto;
+    tab-size : 8;
+    table-layout : auto;
+    text-align : inherit;
+    text-align-last : auto;
+    text-decoration : none;
+    text-decoration-color : inherit;
+    text-decoration-line : none;
+    text-decoration-style : solid;
+    text-indent : 0;
+    text-shadow : none;
+    text-transform : none;
+    top : auto;
+    transform : none;
+    transform-style : flat;
+    transition : none;
+    transition-delay : 0s;
+    transition-duration : 0s;
+    transition-property : none;
+    transition-timing-function : ease;
+    unicode-bidi : normal;
+    vertical-align : baseline;
+    visibility : visible;
+    white-space : normal;
+    widows : 0;
+    width : auto;
+    word-spacing : normal;
+    z-index : auto;
+}
+
+/* selection protection / can not select text and can not copy */
+.protected-text {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  pointer: default;
+  cursor: default;
+}
+
+/* smooth animation for mobile fix */
+.smooth-animation {
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  -o-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+/* hardware acceleration enable */
+.hwaccel {
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+// ========================================================================
+//  Style sheet starts from here
+// ========================================================================
+
+// ============================================================
+// basic config starts here
+
+// fonts
+$museo : 'Museo Slab';
+$helveticaNeue : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$helvetica : Helvetica, Arial, sans-serif;
+$arial : Arial, sans-serif;
+
+// ===================================================================================
+//                                 Common part starts
+// ===================================================================================
+
+body {
+    font-family: $museo;
+    font-weight: 300;
+}
+
+a {
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+// header starts here
+header {
+    background-color: #cfcfcf !important;
+    
+    // navbar starts
+    nav {
+        border: none !important;
+        margin-bottom: 0 !important;
+        background-color: transparent !important;
+        
+        // tablet
+        @media(min-width: $screen-tablet) {
+            .nav {
+                float: right !important;
+            }
+        }
+        
+        // navbar toggler
+        .navbar-toggle {
+            position: relative;
+            top: 15px;
+            background-color: #fff !important;
+        }
+        
+        // brand logo
+        .navbar-brand {
+            height: 80px;
+        }
+        
+        // nav menu starts
+        li {
+            
+            a {
+                display: block;
+                padding: 20px !important;
+                color: #fff !important;
+                font-family: $helveticaNeue;
+                font-weight: 100;
+                font-size: 26px;
+                line-height: 40px;
+                
+                &:hover {
+                    color: #ca453a !important;
+                }
+            }
+            &.active {
+                a {
+                    color: #ca453a !important;
+                    background-color: transparent !important;
+                }
+            }
+        }
+        
+        // for tablets
+        @media(min-width: $screen-tablet) {
+            li {
+                a {
+                    padding: 30px 20px !important;
+                    font-size: 20px;
+                }
+            }
+        }
+        
+        // for laptops
+        @media(min-width: $screen-laptop) {
+            li {
+                a {
+                    padding: 30px !important;
+                    font-size: 26px;
+                }
+            }
+        }
+        
+        // for desktops
+        @media(min-width: $screen-desktop) {
+            li {
+                a {
+                    padding: 30px !important;
+                    font-size: 32px;
+                }
+            }
+        }
+        
+        // nav menu ends
+    }
+    // navbar ends
+    
+}
+// header ends here
+
+// footer starts here
+footer {
+    // top part
+    .top-part {
+        height: 160px;
+        background-color: #777777;
+    }
+    
+    // bottom part
+    .bottom-part {
+        padding: 20px 0;
+        color: #fff;
+        font-family: $helveticaNeue;
+        font-weight: 100;
+        font-size: 20px;
+        background-color: #98c01e;
+        
+        // footer copy text
+        .f-copy {
+            text-align: center;
+            
+            a {
+                color: inherit;
+                
+                &:hover {
+                    opacity: 0.6;
+                    text-decoration: none;
+                }
+            }
+        }
+        
+        // address part
+        address {
+            margin-bottom: 0;
+            text-align: center;
+            
+            span {
+                display: block;
+            }
+            
+            a {
+                color: inherit;
+                display: block;
+                
+                &:hover {
+                    opacity: 0.6;
+                    text-decoration: none;
+                }
+            }
+        }
+        
+        // tablet
+        @media(min-width: $screen-tablet) {
+            address {
+                a {
+                    margin-left: 32px;
+                    padding-left: 32px;
+                    border-left: 1px solid #fff;
+                }
+                
+                span, a {
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}
+// footer ends here
+
+// ===================================================================================
+//                                 Common part ends
+// ===================================================================================
+
+// ===================================================================================
+//                                 Home page starts
+// ===================================================================================
+// intro starts
+section.intro {
+    position: relative;
+    
+    // main image
+    .main-image {
+        width: 100%;
+    }
+    
+    .view-full {
+        display: block;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: $museo;
+        font-weight: 300;
+        font-size: 33px;
+        color: #fff;
+        text-align: center;
+        background-color: #65a734;
+        
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        
+        &:hover {
+            text-decoration: none;
+            opacity: 0.6;
+        }
+    }
+    
+    // laptop fix
+    @media(min-width: $screen-laptop) {
+        .view-full {
+            position: relative;
+            top: -50px;
+            display: inline-block;
+            width: 281px;
+            height: 156px;
+            padding-right: 60px;
+            font-size: 35px;
+            background-color: transparent;
+            background-image: url(../images/view-full-range.png);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+    
+    .free {
+        position: absolute;
+        bottom: 120px;
+        right: 20px;
+        
+        img {
+            width: 200px;
+        }
+    }
+    
+    // laptop fix
+    @media(min-width: $screen-laptop) {
+        .free {
+            bottom: 0;
+            
+            img {
+                width: auto;
+            }
+        }
+    }
+    
+    // proud section
+    .proud {
+        padding: 20px;
+        font-family: $museo;
+        font-weight: 300;
+        font-size: 35px;
+        color: #fff;
+        background-color: #ff9300;
+        background-image: url(../images/home-right-top.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    // laptop fix
+    @media(min-width: $screen-laptop) {
+        .proud {
+            position: relative;
+            z-index: 2;
+            margin-top: 20px;
+            padding: 30px;
+            font-size: 25px;
+            background-color: transparent;
+            background-image: url(../images/home-right-top.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+    }
+    
+    // desktop fix
+    @media(min-width: $screen-desktop) {
+        .proud {
+            padding: 30px;
+            font-size: 30px;
+        }
+    }
+    
+    
+    // trend section
+    .trend {
+        padding: 20px;
+        font-family: $museo;
+        font-weight: 300;
+        font-size: 20px;
+        color: #fff;
+        background-color: #1e8fff;
+    }
+    
+    // laptop fix
+    @media(min-width: $screen-laptop) {
+        .trend {
+            position: relative;
+            z-index: 1;
+            margin-top: -20px;
+            padding-left: 40px;
+            padding-right: 20px;
+            font-size: 18px;
+            background-color: transparent;
+            background-image: url(../images/home-right-bottom.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+    }
+    
+    // desktop hack
+    @media(min-width: $screen-desktop) {
+        .trend {
+            margin-top: -15px;
+            font-size: 21px;
+            background-size: cover;
+        }
+    }
+    
+}
+// intro ends
+
+// who starts
+// this section needs no desktop hack
+section.who {
+    // title
+    h1 {
+        font-family: $museo;
+        font-weight: 500;
+        font-size: 45px;
+        color: #737373;
+        line-height: 54px;
+    }
+    
+    // body
+    p {
+        margin-bottom: 30px;
+        font-family: $museo;
+        font-weight: 300;
+        font-size: 22px;
+        color: #737373;
+        line-height: 30px;
+    }
+}
+// who ends
+
+// mission starts
+section.mission {
+    padding-bottom: 60px;
+    
+    // left side
+    .lef {
+        p {
+            display: block;
+            padding: 20px;
+            margin-bottom: 0;
+            font-family: $museo;
+            font-weight: 300;
+            font-size: 20px;
+            color: #fff;
+            background-color: #ff9400;
+        }
+        
+        span {
+            display: block;
+            padding: 20px;
+            margin-bottom: 20px;
+            font-family: $museo;
+            font-weight: 300;
+            font-size: 40px;
+            color: #fff;
+            background-color: #65a734;
+        }
+    }
+    
+    // laptop fix
+    @media(min-width: $screen-laptop) {
+        .lef {
+            p {
+                display: block;
+                font-size: 18px;
+                background-color: transparent;
+                background-image: url(../images/home-bottom-top.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            
+            span {
+                position: absolute;
+                right: 50px;
+                bottom: -80px;
+                line-height: 40px;
+                background-color: transparent;
+                background-image: url(../images/home-bottom-bottom.png);
+                background-repeat: no-repeat;
+            }
+        }
+    }
+    
+    // desktop hack
+    @media(min-width: $screen-desktop) {
+        .lef {
+            p {
+                font-size: 22px;
+                background-size: 100%;
+            }
+        }
+    }
+    
+    // right side
+    .rig {
+         p {
+            display: block;
+            padding: 20px;
+            margin-bottom: 0;
+            font-family: $museo;
+            font-weight: 300;
+            font-size: 20px;
+            color: #fff;
+            background-color: #148bff;
+        }
+        
+        span {
+            display: block;
+            padding: 20px;
+            margin-bottom: 20px;
+            font-family: $museo;
+            font-weight: 300;
+            font-size: 40px;
+            color: #fff;
+            background-color: #a64dff;
+        }
+    }
+    
+    // laptop fix
+    @media(min-width: $screen-laptop) {
+        .rig {
+            position: relative;
+            
+            p {
+                font-size: 16px;
+                background-color: transparent;
+                background-image: url(../images/home-bottom-right-top.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            
+            span {
+                position: absolute;
+                right: 50px;
+                bottom: -55px;
+                line-height: 40px;
+                background-color: transparent;
+                background-image: url(../images/home-bottom-right-bottom.png);
+                background-repeat: no-repeat;
+            }
+        }
+    }
+    
+    // desktop hack
+    @media(min-width: $screen-desktop) {
+        .rig {
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+}
+// mission ends
+// ===================================================================================
+//                                 Home page ends
+// ===================================================================================
+
+// ===================================================================================
+//                                 Videos page starts
+// ===================================================================================
+// videos section starts
+section.videos {
+    padding: 50px 0;
+    
+    // the video
+    .video {
+        display: block;
+        overflow: hidden;
+        
+        img {
+            width: 100%;
+        }
+    }
+    
+    // video title
+    h3 {
+        margin-bottom: 50px;
+        font-family: $helveticaNeue;
+        font-size: 15px;
+        font-weight: 300;
+        color: #ff9300;
+        text-align: center;
+    }
+    
+    // proud section
+    .proud {
+        padding: 20px;
+        margin-bottom: 20px;
+        font-family: $museo;
+        font-weight: 300;
+        font-size: 35px;
+        color: #fff;
+        background-color: #ff9300;
+        background-image: url(../images/home-right-top.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    // laptop fix
+    @media(min-width: $screen-laptop) {
+        .proud {
+            position: relative;
+            z-index: 2;
+            margin-top: 20px;
+            padding: 30px;
+            font-size: 25px;
+            background-color: transparent;
+            background-image: url(../images/home-right-top.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+    }
+    
+    // desktop fix
+    @media(min-width: $screen-desktop) {
+        .proud {
+            padding: 30px;
+            font-size: 30px;
+        }
+    }
+    
+    // like section
+    .like {
+        display: block;
+        padding: 20px;
+        margin-bottom: 20px;
+        font-family: $museo;
+        font-weight: 300;
+        font-size: 35px;
+        color: #fff;
+        background-color: #0080ff;
+        
+        &:hover {
+            text-decoration: none;
+            opacity: 0.6;
+        }
+    }
+    
+    // laptop fix
+    @media(min-width: $screen-laptop) {
+        .like {
+            position: relative;
+            z-index: 2;
+            margin-top: 20px;
+            padding: 30px;
+            font-size: 25px;
+            background-color: transparent;
+            background-image: url(../images/like-back.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+    }
+    
+    // desktop fix
+    @media(min-width: $screen-desktop) {
+        .like {
+            padding: 30px;
+            padding-left: 40px;
+            font-size: 30px;
+        }
+    }
+}
+// videos section ends
+// ===================================================================================
+//                                 Videos page ends
+// ===================================================================================
+
+// ===================================================================================
+//                                 Contact page starts
+// ===================================================================================
+// contact section
+section.contact {
+    padding: 50px 0;
+    
+    // headline
+    h1 {
+        font-family: $museo;
+        font-weight: 300;
+        font-size: 45px;
+        color: #727272;
+    }
+    
+    // body text
+    p {
+        font-family: $museo;
+        font-weight: 300;
+        font-size: 22px;
+        color: #727272;
+        margin-bottom: 30px;
+    }
+    
+    // address section
+    address {
+        display: block;
+        font-family: $arial;
+        font-size: 22px;
+        color: #727272;
+        
+        a {
+            color: inherit;
+            
+            &:hover {
+                text-decoration: none;
+                opacity: 0.6;
+            }
+        }
+    }
+    
+    // laptop fix
+    @media(min-width: $screen-laptop) {
+        .address-title {
+            margin-top: 120px;
+        }
+    }
+    
+    // proud section
+    .proud {
+        padding: 20px;
+        margin-bottom: 20px;
+        font-family: $museo;
+        font-weight: 300;
+        font-size: 35px;
+        color: #fff;
+        background-color: #ff9300;
+        background-image: url(../images/home-right-top.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    // laptop fix
+    @media(min-width: $screen-laptop) {
+        .proud {
+            position: relative;
+            z-index: 2;
+            margin-top: 20px;
+            padding: 30px;
+            font-size: 25px;
+            background-color: transparent;
+            background-image: url(../images/home-right-top.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+    }
+    
+    // desktop fix
+    @media(min-width: $screen-desktop) {
+        .proud {
+            padding: 30px;
+            font-size: 30px;
+        }
+    }
+    
+    // contact form
+    .real-form {
+        padding: 20px;
+        font-family: $museo;
+        font-weight: 300;
+        font-size: 25px;
+        color: #fff;
+        background-color: #2693ff;
+        
+        label {
+            padding: 10px 0;
+        }
+        
+        .form-control {
+            margin-bottom: 30px;
+        }
+        
+        input[type=submit] {
+            display: block;
+            margin-top: 30px;
+            float: right;
+            width: 120px;
+            height: 120px;
+            border: none;
+            font-size: 25px;
+            background-color: #ff9400;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+            
+            &:hover {
+                opacity: 0.6;
+            }
+        }
+        
+        textarea {
+            resize: none;
+        }
+    }
+    
+    // laptop fix
+    @media(min-width: $screen-laptop) {
+        .real-form {
+            position: relative;
+            padding-top: 80px;
+            padding-left: 50px;
+            padding-right: 150px;
+            background-color: transparent;
+            background-image: url(../images/contact-back.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        
+        input[type=submit] {
+            position: absolute;
+            right: 60px;
+            bottom: -40px;
+        }
+    }
+    
+    // desktop fix
+    @media(min-width: $screen-desktop) {
+        .real-form {
+            padding-left: 30px;
+            padding-right: 280px;
+        }
+        
+        input[type=submit] {
+            position: absolute;
+            right: 200px;
+            bottom: -40px;
+        }
+    }
+    // end of section
+}
+// ===================================================================================
+//                                 Contact page ends
+// ===================================================================================
+
+// ===================================================================================
+//                                 Review page starts
+// ===================================================================================
+// review section
+section.reviews {
+    padding: 50px 0;
+    background-image: url(../images/review-back.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    
+    // proud section
+    .proud {
+        padding: 20px;
+        margin-bottom: 20px;
+        font-family: $museo;
+        font-weight: 300;
+        font-size: 35px;
+        color: #fff;
+        background-color: #ff9300;
+        background-image: url(../images/home-right-top.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    // laptop fix
+    @media(min-width: $screen-laptop) {
+        .proud {
+            position: relative;
+            z-index: 2;
+            margin-top: 20px;
+            padding: 30px;
+            font-size: 25px;
+            background-color: transparent;
+            background-image: url(../images/home-right-top.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+    }
+    
+    // desktop fix
+    @media(min-width: $screen-desktop) {
+        .proud {
+            padding: 30px;
+            font-size: 30px;
+        }
+    }
+    
+    // best - comment
+    .best {
+        padding: 20px;
+        margin-bottom: 20px;
+        font-family: $museo;
+        font-weight: 300;
+        font-size: 30px;
+        color: #fff;
+        background-color: #59b200;
+    }
+    
+    // laptop fix
+    @media(min-width: $screen-laptop) {
+        .best {
+            width: 280px;
+            height: 280px;
+            padding-top: 35px;
+            text-align: center;
+            shape-inside: circle(125px at 125px 125px);
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+        }
+    }
+    
+    // two - comment
+    .two {
+        padding: 10px;
+        margin-bottom: 20px;
+        font-family: $museo;
+        font-weight: 300;
+        font-size: 25px;
+        color: #fff;
+        background-color: #ff0000;
+    }
+    
+    // laptop fix
+    @media(min-width: $screen-laptop) {
+        .two {
+            float: right;
+            width: 200px;
+            height: 200px;
+            padding-top: 40px;
+            font-size: 22px;
+            text-align: center;
+            shape-inside: circle(100px at 100px 100px);
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+        }
+    }
+    
+    // desktop fix
+    @media(min-width: $screen-desktop) {
+        .two {
+            float: none;
+            margin-left: 80px;
+        }
+    }
+    
+    // new - comment
+    .new {
+        padding: 20px;
+        margin-bottom: 20px;
+        font-family: $museo;
+        font-weight: 300;
+        font-size: 25px;
+        color: #fff;
+        background-color: #a64dff;
+    }
+    
+    // laptop fix
+    @media(min-width: $screen-laptop) {
+        .new {
+            margin-top: 170px;
+            width: 230px;
+            height: 230px;
+            padding-top: 35px;
+            font-size: 20px;
+            text-align: center;
+            shape-inside: circle(115px at 115px 115px);
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+        }
+    }
+    
+    // never - comment
+    .never {
+        padding: 20px;
+        margin-bottom: 20px;
+        font-family: $museo;
+        font-weight: 300;
+        font-size: 25px;
+        color: #fff;
+        background-color: #bbbbbb;
+    }
+    
+    // laptop fix
+    @media(min-width: $screen-laptop) {
+        .never {
+            width: 180px;
+            height: 180px;
+            padding-top: 20px;
+            font-size: 20px;
+            text-align: center;
+            shape-inside: circle(90px at 90px 90px);
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+        }
+    }
+    
+    // admit - comment
+    .admit {
+        padding: 20px;
+        margin-bottom: 20px;
+        font-family: $museo;
+        font-weight: 300;
+        font-size: 25px;
+        color: #fff;
+        background-color: #ff9400;
+    }
+    
+    // laptop fix
+    @media(min-width: $screen-laptop) {
+        .admit {
+            float: right;
+            width: 230px;
+            height: 230px;
+            padding-top: 45px;
+            font-size: 20px;
+            text-align: center;
+            shape-inside: circle(115px at 115px 115px);
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+        }
+    }
+    
+    // desktop fix
+    @media(min-width: $screen-desktop) {
+        .admit {
+            float: none;
+            margin-left: 40px;
+        }
+    }
+    
+    // the link
+    a.thought {
+        display: block;
+        padding: 20px;
+        margin-bottom: 20px;
+        font-family: $museo;
+        font-weight: 300;
+        font-size: 25px;
+        color: #fff;
+        background-color: #4fb500;
+        
+        &:hover {
+            text-decoration: none;
+            opacity: 0.6;
+        }
+    }
+    
+    // laptop fix
+    @media(min-width: $screen-laptop) {
+        a.thought {
+            margin-top: 300px;
+            padding: 30px;
+            padding-left: 40px;
+            padding-right: 20px;
+            font-size: 16px;
+            background-color: transparent;
+            background-image: url(../images/link-back-green.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+    
+    // desktop hack
+    @media(min-width: $screen-desktop) {
+        a.thought {
+            padding-left: 60px;
+            font-size: 20px;
+            background-size: contain;
+        }
+    }    
+}
+// ===================================================================================
+//                                 Review page ends
+// ===================================================================================
+
+// ===================================================================================
+//                                 Products page starts
+// ===================================================================================
+// product section starts
+section.products {
+    padding: 40px 0;
+    
+    // proud section
+    .proud {
+        padding: 20px;
+        margin-bottom: 20px;
+        font-family: $museo;
+        font-weight: 300;
+        font-size: 35px;
+        color: #fff;
+        background-color: #ff9300;
+        background-image: url(../images/home-right-top.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    // laptop fix
+    @media(min-width: $screen-laptop) {
+        .proud {
+            position: relative;
+            z-index: 2;
+            margin-top: 20px;
+            padding: 30px;
+            padding-left: 100px;
+            font-size: 25px;
+            background-color: transparent;
+            background-image: url(../images/home-right-top.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+    }
+    
+    // desktop fix
+    @media(min-width: $screen-desktop) {
+        .proud {
+            padding: 30px;
+            padding-left: 130px;
+            font-size: 30px;
+        }
+    }
+    
+    p {
+        display: block;
+        padding: 20px 5px;
+        color: #fff;
+        font-family: $museo;
+        font-weight: 300;
+        font-size: 16px;
+        
+        strong {
+            display: block;
+            font-weight: 500;
+        }
+        
+        &.violet {
+            background-color: #7f5192;
+        }
+        
+        &.orange {
+            background-color: #eb7914;
+        }
+        
+        &.red {
+            background-color: #e53327;
+        }
+    }
+    
+    // laptop fix
+    @media(min-width: $screen-laptop) {
+        p {
+            margin-top: 20px;
+            padding-left: 15px;
+            padding-top: 10px;
+            font-size: 12px;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            
+            &.violet {
+                background-color: transparent;
+                background-image: url(../images/pro-violet-back.png);
+            }
+            
+            &.red {
+                background-color: transparent;
+                background-image: url(../images/pro-red-back.png);
+            }
+            
+            &.orange {
+                background-color: transparent;
+                background-image: url(../images/pro-orange-back.png);
+            }
+        }
+    }
+    
+    // desktop fix
+    @media(min-width: $screen-desktop) {
+        p {
+            font-size: 16px;
+        }
+    }
+}
+// product section ends
+
+// mission - product page hack
+section.pro-page {
+    // left
+    .lef {
+        a {
+            background-color: #ea2e1b;
+        }
+        
+        @media(min-width: $screen-laptop) {
+            a {
+                background-color: transparent;
+                background-image: url(../images/products-bottom-bottom.png);
+            }
+        }
+    }
+    
+    // right
+    .rig {
+        text-align: center;
+        
+        img {
+            width: 100%;
+        }
+    }
+    
+    // laptop fix
+    @media(min-width: $screen-laptop) {
+        .rig {
+            text-align: left;
+
+            img {
+                width: auto;
+            }
+        }
+    }
+}
+// ===================================================================================
+//                                 Products page ends
+// ===================================================================================
+
+// ---------------------------------- the end ----------------------------------

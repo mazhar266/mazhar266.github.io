@@ -1,0 +1,4 @@
+// jquery dom ready
+$(function() {
+    
+});
