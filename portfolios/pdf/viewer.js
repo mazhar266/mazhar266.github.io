@@ -4292,14 +4292,14 @@ var SecondaryToolbar = (function SecondaryToolbarClosure() {
         var eventName = this.buttons[button].eventName;
         var close = this.buttons[button].close;
 
-        // element.addEventListener('click', function (eventName, close) {
-        //   if (eventName !== null) {
-        //     this.eventBus.dispatch(eventName, { source: this, });
-        //   }
-        //   if (close) {
-        //     this.close();
-        //   }
-        // }.bind(this, eventName, close));
+        element.addEventListener('click', function (eventName, close) {
+          if (eventName !== null) {
+            this.eventBus.dispatch(eventName, { source: this, });
+          }
+          if (close) {
+            this.close();
+          }
+        }.bind(this, eventName, close));
       }
     },
 
@@ -8890,9 +8890,9 @@ function webViewerInitialized() {
     PDFViewerApplication.eventBus.dispatch('print');
   });
 
-  // appConfig.toolbar.download.addEventListener('click', function (e) {
-  //   PDFViewerApplication.eventBus.dispatch('download');
-  // });
+  appConfig.toolbar.download.addEventListener('click', function (e) {
+    PDFViewerApplication.eventBus.dispatch('download');
+  });
 
   Promise.all(waitForBeforeOpening).then(function () {
     webViewerOpenFileViaURL(file);
