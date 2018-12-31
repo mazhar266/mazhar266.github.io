@@ -1,8 +1,8 @@
-#Github Page for Mazhar Ahmed
+# Github Page for Mazhar Ahmed
 
 [mazhar266.github.io](http://mazhar266.github.io) page
 
-###What's in it:
+### What's in it:
 
 - Github page [visit](http://mazhar266.github.io)
 - /md : an browser based markdown parser [demo](http://mazhar266.github.io/md/?file=sample.md)
@@ -10,9 +10,9 @@
 - /fun : some funny js [demo](http://mazhar266.github.io/fun/love-me.html)
 - Awesome Bootstrap Boilerplate landing page [visit](http://mazhar266.github.io/Awesome-Bootstrap-Boilerplate/)
 
-###Credits
+### Credits
 
-####MAZHAR AHMED  
+#### MAZHAR AHMED  
   
 **ZCE, Full Stack LAMP & MEAN developer, Pythoneer**  
 Loves Java, AWS, Linode and Github  
