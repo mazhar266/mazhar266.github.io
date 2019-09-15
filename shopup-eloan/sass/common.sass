@@ -1,0 +1,66 @@
+// Common classes
+
+h1
+    font-size: 2.4em
+
+h2
+    font-size: 2.13em
+    font-weight: 600
+
+.virtical-list
+    flex-flow: column
+
+    li
+        display: block
+
+.align-right
+    text-align: right
+
+.align-left
+    text-align: left
+
+.slider-holder
+    margin: auto
+    width: 314px
+
+.rzslider
+    margin: 0
+
+    .rz-ticks
+        top: 16px
+        .rz-tick
+            width: 3px
+            height: 4px
+            background-color: #e6e6e6
+
+    .rz-bar
+        height: 10px
+        border-radius: 10px
+
+    .rz-selection
+        background-color: #5c6bbf
+        border-radius: 10px
+
+    .rz-pointer
+        top: -9px
+        width: 26px
+        height: 26px
+        border-radius: 4px
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.14)
+        background-color: #ffc929
+
+        &.rz-active::after
+            background: transparent
+
+        &:hover, &:active
+            &::after
+                background: transparent
+
+        &::after
+            color: white
+            content: "\f04c"
+            font-family: "Font Awesome 5 Free"
+            font-weight: 700
+            background: transparent
+            top: 3px !important
+            left: 6px !important

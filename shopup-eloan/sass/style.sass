@@ -1,0 +1,413 @@
+body
+    padding: 0
+    font-family: "Noto Sans Bengali"
+    font-size: 15px
+    overflow-x: hidden
+
+    .navbar
+        background-color: white !important
+
+        .lang-selector
+            margin-left: 30px
+
+        .dropdown-divider
+            width: 1px
+            height: 62px
+            position: absolute
+            top: -10px
+            margin-left: 10px
+            background-color: rgba(0, 0, 0, 0.1)
+
+        .navbar-brand
+            img
+                height: 34px
+        
+        .fa-globe
+            color: white
+            background: #3fb5b4
+            border-radius: 6px
+            padding: 1px
+
+        .nav-link
+            margin-right: 20px
+
+            &.nav-facebook
+                padding: 4px 10px
+                font-family: 'Lato', sans-serif
+                font-size: 0.95em
+                color: white
+                background-color: #4267B2
+                border-radius: 4px
+                line-height: 24px
+
+                .fa-facebook-square
+                    margin-right: 5px
+                    font-size: 1.2em
+                    margin-top: 5px
+                
+                &:hover, &:active, &:focus
+                    color: white !important
+            
+            &:hover, &:active, &:focus
+                color: #3fb5b4 !important
+
+        .dropdown-item
+            &:hover, &:active, &:focus
+                color: #3fb5b4 !important
+
+    main
+        .hero-slider
+            height: 530px
+            padding: 136px 0
+            background-image: url(../img/hero-mobile@2x.jpg)
+            background-size: cover
+            background-position-x: right
+
+            @media (min-width: 768px)
+                background-image: url(../img/hero.jpg)
+            @media (min-width: 992px)
+                background-image: url(../img/hero@2x.jpg)
+            @media (min-width: 1200px)
+                background-image: url(../img/hero@3x.jpg)
+            
+            p
+                margin: 20px 0
+                font-size: 1.2em
+            a
+                img
+                    height: 60px !important
+        
+        .features
+            padding: 85px 0
+            background-color: #f6f5f9
+
+            .entry
+                border-right: solid 1px #e3deed
+
+                &:last-child
+                    border: none
+
+            h2
+                margin-bottom: 57px
+            
+            p
+                margin-top: 25px
+                font-weight: 600
+                font-size: 1.2em
+        
+        .recommendations
+            padding: 85px 0
+
+            h2
+                margin-bottom: 40px
+            
+            .image-holder
+                img
+                    width: 100%
+            
+            .text-holder
+                padding: 20px
+                color: white
+                background-color: #7762af
+
+                .tag
+                    margin-bottom: 8px
+                    font-family: 'Lato', sans-serif
+                    font-weight: bold
+                    font-size: 1.07em
+                    color: #ffc929
+                
+                p
+                    font-size: 1.2em
+        
+        .loan-amount
+            h2
+                margin: 30px 0
+            
+            .calulator-box
+                padding: 32px
+                border: 1px solid #dbdee7
+                border-radius: 20px
+
+                hr
+                    margin: 29px 0
+
+                h3
+                    line-height: 60px
+
+                .select2-selection--single
+                    height: 60px
+
+                    .select2-selection__rendered
+                        line-height: 60px
+                        font-size: 1.467em
+                    
+                    .select2-selection__arrow
+                        right: 10px
+                        height: 60px
+                
+                .cal
+                    p
+                        margin: 0
+                        font-size: 1.200em
+                    
+                    h3
+                        margin-top: 8px
+                        line-height: -1
+                        font-size: 3.067em
+
+                .summary
+                    margin-top: 50px
+                    margin-bottom: 30px
+                    // padding: 18px 0
+                    border-radius: 10px
+                    background-color: transparentize(#7762af, 0.9)
+
+                    .row
+                        div
+                            padding: 18px 0
+
+                    .total
+                        border-radius: 0 10px 10px 0
+                        background-color: #ffc929
+
+                    p
+                        margin-bottom: 5px
+                        color: transparentize(black, 0.5)
+                    
+                    h4
+                        margin-bottom: 0
+                        opacity: 0.75
+                        font-size: 24px
+                        font-weight: 600
+                        font-style: normal
+                        font-stretch: normal
+                        line-height: 1.25
+                        letter-spacing: normal
+                        color: #000000
+                
+                .info
+                    margin-top: 30px
+
+                    .btn
+                        width: 190px
+                        height: 34px
+                        margin-left: 20px
+                        font-family: 'Lato', sans-serif
+                        line-height: 4px
+                        border-radius: 4px
+                        background-color: #7762af
+
+                    span
+                        font-size: 1.200em
+
+                        svg
+                            margin-right: 5px
+                            font-size: 1.2em
+                            border-radius: 50%
+
+                            background: radial-gradient(ellipse at center,  #000000 0%,#000000 50%,#ffffff 51%,#ffffff 100%)
+                            
+                            path
+                                fill: #ffc800
+                                background-color: black
+        
+        .mobile-steps
+            padding: 50px 0
+            background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 52%,#ffc929 52%,#ffc929 100%)
+
+            h2
+                margin: 40px 0
+            
+            h6
+                width: 55px
+                height: 55px
+                border: 3px solid #ffc929
+                border-radius: 50%
+                font-size: 2.133em
+                line-height: 55px
+                text-align: center
+                background-color: white
+        
+        .download
+            margin-bottom: 40px
+            padding: 30px 0
+            background-color: #7762af
+            color: white
+
+            h3
+                margin: 0
+                opacity: 0.85
+                font-size: 1.867em
+                font-weight: 600
+                font-style: normal
+                font-stretch: normal
+                line-height: 60px
+                letter-spacing: normal
+
+            .btn
+                opacity: 0.8
+                font-family: 'Lato', sans-serif
+                font-size: 1.200em
+                font-weight: bold
+                font-style: normal
+                font-stretch: normal
+                line-height: 1.33
+                letter-spacing: normal
+                color: #000000
+
+                width: 270px
+                height: 59px
+                border-radius: 4px
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.14)
+                background-color: #ffc929
+
+        .questions
+            margin-bottom: 80px
+
+            h2
+                padding: 40px 0
+            
+            .survey-box
+                border-radius: 20px
+                border: solid 2px #dbdee7
+
+                .box-head
+                    padding: 35px 0
+                    border-radius: 20px 20px 0 0
+                    background-color: #f5f3f9
+
+                    .progress-bar
+                        background-color: #7762af
+
+                    .row
+                        div
+                            font-family: 'Lato', sans-serif
+                            font-size: 1.600em
+                            font-weight: 600
+
+                .box-body
+                    padding: 35px 0
+
+                    p
+                        font-size: 1.467em
+                        line-height: 50px
+                        padding-bottom: 0
+                        margin-bottom: 0
+                    
+                    .btn-primary
+                        width: 125px
+                        height: 50px
+                        margin-left: 20px
+                        border: none
+                        border-radius: 25px
+                        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2)
+                        background-color: #4abc80
+                        text-transform: uppercase
+
+                    .btn-secondary
+                        width: 125px
+                        height: 50px
+                        border: none
+                        border-radius: 25px
+                        box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2)
+                        background-color: #ea467b
+                        text-transform: uppercase
+
+        .sponsors
+            margin-bottom: 80px
+            padding: 80px 0
+            background-color: #f5f3f9
+
+            h3
+                opacity: 0.75
+                font-size: 1.867em
+                font-style: normal
+                font-stretch: normal
+                line-height: 1.21
+                letter-spacing: normal
+            
+            p
+                opacity: 0.56
+                font-weight: normal
+                font-style: normal
+                font-stretch: normal
+                line-height: 1.6
+                letter-spacing: normal
+            
+            ul
+                margin-top: 20px
+                list-style: none
+                
+                li
+                    display: inline-block
+                    margin-right: 68px
+
+                    &:last-child
+                        margin-right: 0
+        
+        .faq
+            margin-bottom: 80px
+    
+    footer
+        padding-top: 93px
+        background-color: #f5f3f9
+
+        .links
+            margin-bottom: 55px
+
+            h5
+                margin-bottom: 28px
+
+            li
+                .nav
+                    svg
+                        margin-right: 10px
+                        color: #3fb5b4
+
+            .virtical-list
+                li
+                    margin-bottom: 12px
+
+                    a
+                        display: block
+                        color: black
+                        opacity: 0.7
+
+                        &:focus, &:active, &:hover
+                            opacity: 1
+                        
+                        img
+                            margin-right: 12px
+                        
+                    .social-link
+                        opacity: 1
+                    
+                        .icon
+                            width: 32px
+                            height: 32px
+                            display: inline-block
+                            margin-right: 12px
+                            border-radius: 50%
+                            font-size: 20px
+                            color: white
+                            text-align: center
+                            line-height: 36px
+                            background-color: #4267B2
+                            opacity: 1
+
+                            &.youtube
+                                background-color: #c4302b
+                            
+                            &.instagram
+                                background: #d6249f
+                                background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)
+
+        .rock-bottom
+            margin: 0
+            padding: 30px 0
+            border-top: solid 1px #e0e0e0
+            font-family: 'Lato', sans-serif
+            font-size: 0.87em
+            font-weight: normal
+            opacity: 0.35
