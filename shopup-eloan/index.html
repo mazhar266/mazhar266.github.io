@@ -15,6 +15,10 @@
   <!-- <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css"> -->
 
+  <!-- angularjs -->
+  <script src="js/angular.min.js"></script>
+  <script src="js/angular-sanitize.js"></script>
+
   <!-- bootstrap css -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
 
@@ -22,7 +26,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/css/select2.min.css" rel="stylesheet" />
 
   <!-- angular slider -->
-  <link rel="stylesheet" href="https://rawgit.com/rzajac/angularjs-slider/master/dist/rzslider.css">
+  <link rel="stylesheet" href="css/rzslider.min.css">
 
   <!-- noto sans font -->
   <link rel="stylesheet" href="css/noto-sans-bengali.css">
@@ -284,7 +288,7 @@
     <!-- /recommendations -->
 
     <!-- loan amount -->
-    <section class="loan-amount ng-controller="AppController as app">
+    <section class="loan-amount ng-controller="AppController">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -333,31 +337,12 @@
                       কত লোন নিতে চান?
                     </p>
                     <h3>
-                      ৳ 27,000
+                      ৳ {{ loanAmount }}
                     </h3>
                     <div class="slider-holder">
                       <rzslider
-                        rz-slider-model="app.loanAmount"
-                        rz-slider-options="{
-                          floor: 30000,
-                          ceil: 300000,
-                          step: 1000,
-                          showSelectionBar: true,
-                          hidePointerLabels: true,
-                          hideLimitLabels: true,
-                          ticksArray: [
-                            30000,
-                            60000,
-                            90000,
-                            120000,
-                            150000,
-                            180000,
-                            210000,
-                            240000,
-                            270000,
-                            300000,
-                          ]
-                        }"
+                        rz-slider-model="loanAmount"
+                        rz-slider-options="loanAmountOption"
                       ></rzslider>
                     </div>
                   </div>
@@ -368,19 +353,12 @@
                       কত দিনের জন্য নিতে চান?
                     </p>
                     <h3>
-                      5 মাস
+                      {{ loanDuration }} মাস
                     </h3>
                     <div class="slider-holder">
                       <rzslider
-                        rz-slider-model="app.loanDuration"
-                        rz-slider-options="{
-                          floor: 1,
-                          ceil: 36,
-                          showSelectionBar: true,
-                          hidePointerLabels: true,
-                          hideLimitLabels: true,
-                          ticksArray: [0, 4, 8, 12, 16, 20, 24, 28, 32, 36]
-                        }"
+                        rz-slider-model="loanDuration"
+                        rz-slider-options="loanDurationOption"
                       ></rzslider>
                     </div>
                   </div>
@@ -928,9 +906,8 @@
   <!-- select2 -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/js/select2.min.js"></script>
 
-  <!-- angularjs -->
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
-  <script src="https://rawgit.com/rzajac/angularjs-slider/master/dist/rzslider.js"></script>
+  <!-- rzslider -->
+  <script src="js/rzslider.min.js"></script>
 
   <!-- fontawesome -->
   <script src="js/all.min.js"></script>
