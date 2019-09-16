@@ -418,46 +418,146 @@ body main .faq {
   margin-bottom: 80px;
 }
 /* line 352, ../sass/style.sass */
+body main .faq h3 {
+  margin-bottom: 30px;
+}
+/* line 355, ../sass/style.sass */
+body main .faq .collapable {
+  margin-bottom: 20px;
+}
+/* line 358, ../sass/style.sass */
+body main .faq .collapable .head {
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 1.2em;
+  background-color: #f5f3f9;
+}
+/* line 364, ../sass/style.sass */
+body main .faq .collapable .head .icon-up, body main .faq .collapable .head .icon-down {
+  position: absolute;
+  right: 10px;
+  top: -5px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  line-height: 36px;
+  text-align: center;
+  background-color: #ffc929;
+}
+/* line 375, ../sass/style.sass */
+body main .faq .collapable .head .icon-up {
+  display: none;
+}
+/* line 378, ../sass/style.sass */
+body main .faq .collapable .body {
+  display: none;
+}
+/* line 382, ../sass/style.sass */
+body main .faq .collapable.expanded .icon-up {
+  display: inline-block;
+}
+/* line 385, ../sass/style.sass */
+body main .faq .collapable.expanded .icon-down {
+  display: none;
+}
+/* line 388, ../sass/style.sass */
+body main .faq .collapable.expanded .body {
+  display: block;
+  padding: 20px 0;
+  padding-left: 20px;
+}
+/* line 393, ../sass/style.sass */
+body main .faq .collapable.expanded .body .inner-expandable {
+  position: relative;
+  list-style: none;
+  padding: 0;
+  padding-left: 40px;
+}
+/* line 399, ../sass/style.sass */
+body main .faq .collapable.expanded .body .inner-expandable li::before {
+  position: absolute;
+  left: 0;
+  content: "+";
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: center;
+  background-color: #ffc929;
+}
+/* line 414, ../sass/style.sass */
+body main .faq .collapable.expanded .body .inner-expandable .expanded::before {
+  content: "-";
+}
+/* line 417, ../sass/style.sass */
+body main .faq .collapable.expanded .body .inner-expandable .expanded .main-body {
+  display: block;
+}
+/* line 420, ../sass/style.sass */
+body main .faq .collapable.expanded .body .inner-expandable .expanded .header {
+  padding-bottom: 10px;
+}
+/* line 423, ../sass/style.sass */
+body main .faq .collapable.expanded .body .inner-expandable .header {
+  padding-bottom: 30px;
+  font-size: 1.2em;
+  font-weight: 600;
+  line-height: 35px;
+}
+/* line 429, ../sass/style.sass */
+body main .faq .collapable.expanded .body .inner-expandable .main-body {
+  display: none;
+}
+/* line 432, ../sass/style.sass */
+body main .faq .collapable.expanded .body .inner-expandable .main-body p {
+  padding-top: 10px;
+  padding-bottom: 0;
+  opacity: 0.56;
+}
+/* line 437, ../sass/style.sass */
 body footer {
   padding-top: 93px;
   background-color: #f5f3f9;
 }
-/* line 356, ../sass/style.sass */
+/* line 441, ../sass/style.sass */
 body footer .links {
   margin-bottom: 55px;
 }
-/* line 359, ../sass/style.sass */
+/* line 444, ../sass/style.sass */
 body footer .links h5 {
   margin-bottom: 28px;
 }
-/* line 364, ../sass/style.sass */
+/* line 449, ../sass/style.sass */
 body footer .links li .nav svg {
   margin-right: 10px;
   color: #3fb5b4;
 }
-/* line 369, ../sass/style.sass */
+/* line 454, ../sass/style.sass */
 body footer .links .virtical-list li {
   margin-bottom: 12px;
 }
-/* line 372, ../sass/style.sass */
+/* line 457, ../sass/style.sass */
 body footer .links .virtical-list li a {
   display: block;
   color: black;
   opacity: 0.7;
 }
-/* line 377, ../sass/style.sass */
+/* line 462, ../sass/style.sass */
 body footer .links .virtical-list li a:focus, body footer .links .virtical-list li a:active, body footer .links .virtical-list li a:hover {
   opacity: 1;
 }
-/* line 380, ../sass/style.sass */
+/* line 465, ../sass/style.sass */
 body footer .links .virtical-list li a img {
   margin-right: 12px;
 }
-/* line 383, ../sass/style.sass */
+/* line 468, ../sass/style.sass */
 body footer .links .virtical-list li .social-link {
   opacity: 1;
 }
-/* line 386, ../sass/style.sass */
+/* line 471, ../sass/style.sass */
 body footer .links .virtical-list li .social-link .icon {
   width: 32px;
   height: 32px;
@@ -471,16 +571,16 @@ body footer .links .virtical-list li .social-link .icon {
   background-color: #4267B2;
   opacity: 1;
 }
-/* line 399, ../sass/style.sass */
+/* line 484, ../sass/style.sass */
 body footer .links .virtical-list li .social-link .icon.youtube {
   background-color: #c4302b;
 }
-/* line 402, ../sass/style.sass */
+/* line 487, ../sass/style.sass */
 body footer .links .virtical-list li .social-link .icon.instagram {
   background: #d6249f;
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
 }
-/* line 406, ../sass/style.sass */
+/* line 491, ../sass/style.sass */
 body footer .rock-bottom {
   margin: 0;
   padding: 30px 0;

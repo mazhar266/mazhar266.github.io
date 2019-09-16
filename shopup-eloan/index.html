@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="bn" ng-app="eloan">
+<html class="no-js" lang="bn">
 
 <head>
   <meta charset="utf-8">
@@ -44,7 +44,7 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body ng-controller="AppController">
+<body>
   <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
@@ -115,7 +115,7 @@
     </nav>
     <!-- /nav bar -->
   </header>
-  <main>
+  <main ng-app="eloan">
     <!-- main hero slider -->
     <section class="hero-slider">
       <div class="container">
@@ -284,7 +284,7 @@
     <!-- /recommendations -->
 
     <!-- loan amount -->
-    <section class="loan-amount">
+    <section class="loan-amount ng-controller="AppController as app">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -333,11 +333,11 @@
                       কত লোন নিতে চান?
                     </p>
                     <h3>
-                      ৳ {{ loanAmount }}
+                      ৳ 27,000
                     </h3>
                     <div class="slider-holder">
                       <rzslider
-                        rz-slider-model="loanAmount"
+                        rz-slider-model="app.loanAmount"
                         rz-slider-options="{
                           floor: 30000,
                           ceil: 300000,
@@ -368,11 +368,11 @@
                       কত দিনের জন্য নিতে চান?
                     </p>
                     <h3>
-                      {{ loanDuration }} মাস
+                      5 মাস
                     </h3>
                     <div class="slider-holder">
                       <rzslider
-                        rz-slider-model="loanDuration"
+                        rz-slider-model="app.loanDuration"
                         rz-slider-options="{
                           floor: 1,
                           ceil: 36,
@@ -638,6 +638,121 @@
             </h3>
           </div>
         </div>
+
+        <!-- collapsable -->
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <!-- row 1 -->
+            <div class="collapable expanded">
+              <div class="head">
+                <div class="row">
+                  <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+                    ই-লোন কি?
+                  </div>
+                  <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                    <div class="icon-down">
+                      <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="icon-up">
+                      <i class="fas fa-chevron-up"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="body">
+                
+                <!-- inner expandable -->
+                <ul class="inner-expandable">
+                  <li class="expanded">
+                    <div class="header">
+                      ই-লোন কি?
+                    </div>
+                    <div class="main-body">
+                      <p>
+                        অনেক সময় অনলাইন বিজনেস ভালো চললেও, ব্যাঙ্ক থেকে অনলাইন বিজনেস দেখিয়ে
+                        লোন পাওয়া যায়না। ক্ষুদ্র অনলাইন উদ্যোগগুলি যেন সহজেই, এবং অল্প সময়ের মধ্যেই
+                        লোন পেতে পারে সেই উদ্যোগ নিয়েই শপ আপ ই-লোন প্রোগ্রাম চালু করা। লোনগুলি
+                        আমাদের লেন্ডিং পার্টনারদের মাধ্যমে দেয়া হয়। বর্তমানে আমাদের লেন্ডিং পার্টনার ব্র্যাক।
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="header">
+                      আমি কত টাকা লোন পেতে পারি?
+                    </div>
+                    <div class="main-body">
+                      <p>
+                        যাব্বাড়া
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="header">
+                      আমি কত দিনের জন্যে লোন পেতে পারি?
+                    </div>
+                    <div class="main-body">
+                      <p>
+                        যাব্বাড়া
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+                <!-- /inner expandable -->
+                
+              </div>
+            </div>
+            <!-- /row 1 -->
+
+            <!-- row 2 -->
+            <div class="collapable">
+              <div class="head">
+                <div class="row">
+                  <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+                    ই-লোন নিতে কি করতে হবে?
+                  </div>
+                  <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                    <div class="icon-down">
+                      <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="icon-up">
+                      <i class="fas fa-chevron-up"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="body">
+                bb
+              </div>
+            </div>
+            <!-- /row 2 -->
+
+            <!-- row 3 -->
+            <div class="collapable">
+              <div class="head">
+                <div class="row">
+                  <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+                    আমি কখন লোন নিতে পারবো?
+                  </div>
+                  <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                    <div class="icon-down">
+                      <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="icon-up">
+                      <i class="fas fa-chevron-up"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="body">
+                bb
+              </div>
+            </div>
+            <!-- /row 3 -->
+
+          </div>
+        </div>
+        <!-- /collapsable -->
+
       </div>
     </section>
     <!-- /faq -->
@@ -814,7 +929,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/js/select2.min.js"></script>
 
   <!-- angularjs -->
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
   <script src="https://rawgit.com/rzajac/angularjs-slider/master/dist/rzslider.js"></script>
 
   <!-- fontawesome -->
