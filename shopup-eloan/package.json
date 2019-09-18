@@ -20,6 +20,21 @@
   },
   "homepage": "https://github.com/mazhar266/ShopUp-eLoan-HTML#readme",
   "dependencies": {
-    "fast-live-reload": "^2.8.1"
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "angular": "^1.7.8",
+    "angular-sanitize": "^1.7.8",
+    "angularjs-slider": "^7.0.0",
+    "babel-preset-es2015": "^7.0.0",
+    "fast-live-reload": "^2.8.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-cli": "^2.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglifycss": "^1.1.0"
   }
 }

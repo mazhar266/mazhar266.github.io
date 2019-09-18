@@ -1,4 +1,4 @@
-$(function(){
+$(function() {
     // recommendation slider
     $('.recommendations .slider').slick({
         slidesToShow: 3,
@@ -15,9 +15,22 @@ $(function(){
     //     autoplaySpeed: 2000,
     // });
     
+
     // select2
-    $('#sell-selector').select2({
-        width: '443px',
-        minimumResultsForSearch: -1
+    // $('#sell-selector').select2({
+    //     width: '443px',
+    //     minimumResultsForSearch: -1
+    // });
+
+    // expandables
+    $('.inner-expandable li').click(function(e) {
+        $(this).toggleClass('expanded');
+        e.preventDefault();
     });
+
+    $('.collapable .head').click(function(e) {
+        $(this).parent().toggleClass('expanded');
+        e.preventDefault();
+    });
+    
 });
