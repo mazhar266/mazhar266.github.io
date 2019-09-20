@@ -86,3 +86,14 @@ h2 {
   top: 3px !important;
   left: 6px !important;
 }
+
+/* line 68, ../sass/common.sass */
+ol.normal {
+  padding-left: 20px;
+  list-style: bengali;
+  opacity: 0.6;
+}
+/* line 74, ../sass/common.sass */
+ol.normal li::before {
+  display: none !important;
+}
