@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="bn">
+<html class="no-js" lang="{{ lang }}" ng-app="eloan">
 
 <head>
   <meta charset="utf-8">
@@ -13,6 +13,8 @@
 
   <!-- lato from google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+  <!-- rubik font from google -->
+  <link href="https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap" rel="stylesheet">
 
   <!-- all css -->
   <link rel="stylesheet" href="dist/all.css">
@@ -20,7 +22,7 @@
   <meta name="theme-color" content="#3fb5b4">
 </head>
 
-<body>
+<body ng-controller="AppController">
   <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
@@ -91,7 +93,7 @@
     </nav>
     <!-- /nav bar -->
   </header>
-  <main ng-app="eloan">
+  <main>
     <!-- main hero slider -->
     <section class="hero-slider">
       <div class="container">
@@ -105,7 +107,7 @@
               একটুখানি সাহায্য, আপনার ব্যবসাকে নিয়ে যেতে পারে বহুদূর। তাই <br>
               আপনার স্বপ্নপূরণের যাত্রায় আর্থিক সহযোগিতায় ই-লোন।*
             </p>
-            <a href="#">
+            <a href="https://play.google.com/store/apps/details?id=com.shopup.eloan">
               <img src="img/google-play.png" srcset="
                 img/google-play.png 1x,
                 img/google-play@2x.png 2x,
@@ -260,7 +262,7 @@
     <!-- /recommendations -->
 
     <!-- loan amount -->
-    <section class="loan-amount ng-controller="AppController">
+    <section class="loan-amount">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -282,14 +284,16 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                   <div class="text-center">
-                    <select name="monthly-sell" id="sell-selector">
-                      <option>১০,০০০ - ১৫,০০০ টাকা</option>
-                      <option>১৫,০০০ - ২৫,০০০ টাকা</option>
-                      <option>২৫,০০০ - ৪০,০০০ টাকা</option>
-                      <option>৪০,০০০ - ৬০,০০০ টাকা</option>
-                      <option>৬০,০০০ - ১,০০,০০০ টাকা</option>
-                      <option>১,০০,০০০ - ৩,০০,০০০ টাকা</option>
-                    </select>
+                    <div class="select-holder">
+                      <select name="monthly-sell" id="sell-selector">
+                        <option>১০,০০০ - ১৫,০০০ টাকা</option>
+                        <option>১৫,০০০ - ২৫,০০০ টাকা</option>
+                        <option>২৫,০০০ - ৪০,০০০ টাকা</option>
+                        <option>৪০,০০০ - ৬০,০০০ টাকা</option>
+                        <option>৬০,০০০ - ১,০০,০০০ টাকা</option>
+                        <option>১,০০,০০০ - ৩,০০,০০০ টাকা</option>
+                      </select>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -424,7 +428,7 @@
           <div class="col">
             <h6>১</h6>
             <p>
-              Goole Play স্টোর<br>
+              Google Play স্টোর<br>
               থেকে অ্যাপ<br>
               ডাউনলোড করুন
             </p>
@@ -462,7 +466,7 @@
       <div class="row">
         <div class="col-md-7 offset-md-1">
           <h3 class="text-center">
-            খুব সহজে ফোন দিয়ে এপ্লাই করুন সর্বোচ্চ ৫ লক্ষ্য টাকা
+            খুব সহজে ফোন দিয়ে এপ্লাই করুন সর্বোচ্চ ৫ লক্ষ টাকা
           </h3>
         </div>
         <div class="col-md-3">
@@ -649,7 +653,7 @@
                     </div>
                     <div class="main-body">
                       <p>
-                        আমাদের লোন এর মেয়াদ সর্বোচ্চ  ৩-৯মাস। আমরা সবসময় সাজেস্ট করি প্রথমে স্বল্প মেয়াদের লোন নিয়ে,
+                        আমাদের লোন এর মেয়াদ সর্বোচ্চ  ৩-৯ মাস। আমরা সবসময় সাজেস্ট করি প্রথমে স্বল্প মেয়াদের লোন নিয়ে,
                         শোধ করে, প্রয়োজন হলে আরেকটা লোন নিতে। এতে করে আপনার ইন্টারেস্ট এর খরচ কম আসে।
                       </p>
                     </div>
@@ -877,7 +881,7 @@
           </h5>
           <ul class="nav virtical-list">
             <li>
-              <a href="#">
+              <a href="https://play.google.com/store/apps/details?id=com.shopup.shopup">
                 <img src="img/delivery.png" srcset="
                   img/delivery.png 1x,
                   img/delivery@2x.png 2x,
@@ -887,7 +891,7 @@
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://play.google.com/store/apps/details?id=com.shopup.eloan">
                 <img src="img/loan.png" srcset="
                   img/loan.png 1x,
                   img/loan@2x.png 2x,
@@ -897,7 +901,7 @@
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://play.google.com/store/apps/details?id=com.shopup.reseller">
                 <img src="img/resell.png" srcset="
                   img/resell.png 1x,
                   img/resell@2x.png 2x,
@@ -990,10 +994,10 @@
   <!-- all -->
   <script src="dist/all.js"></script>
 
-  <!-- select2 -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/js/select2.min.js"></script>
-
   <!-- app -->
+  <!-- <script src="node_modules/angular/angular.min.js"></script>
+  <script src="app/app.js"></script>
+  <script src="app/controllers/app-controller.js"></script> -->
   <script src="dist/app.js"></script>
 
   <!-- fontawesome fix -->
