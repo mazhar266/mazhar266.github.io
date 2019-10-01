@@ -1,0 +1,145 @@
+<!-- flow -->
+<section class="eloan-flow">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-6 col-md-6">
+                <h1>
+                    প্রয়োজনীয় ডকুমেন্ট চেকলিস্ট<br>
+                    লিস্ট দেখে নিন
+                </h1>
+                <p>
+                    লোন প্রসেস এর জন্যআপনার ব্যক্তিগত ও কিছু ব্যবসায়িক ডকুমেন্ট প্রয়োজন ।<br>
+                    চেকলিস্ট থেকে দেখে নিন আপনাকে কি কি ডকুমেন্ট জমা দিতে হবে।
+                </p>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-6 col-md-6">
+                <img src="img/e-loan-flow-1.png" srcset="
+                    img/e-loan-flow-1.png 1x,
+                    img/e-loan-flow-1@2x.png 2x,
+                    img/e-loan-flow-1@3x.png 3x
+                " alt="eloan-flow">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /flow -->
+
+<!-- questions -->
+<section class="questions">
+<div class="container">
+    <div class="row">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+        <h2 class="text-center">
+            জেনে নিন আপনি ইলোন এর জন্য যোগ্য কি না
+        </h2>
+    </div>
+    </div>
+
+    <!-- box -->
+    <div class="row">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="survey-box">
+        <div class="box-head">
+            <div class="col-md-6 offset-md-3">
+            
+            <div class="row progress-numbers">
+                <div class="col text-center">১</div>
+                <div class="col text-center">২</div>
+                <div class="col text-center">৩</div>
+                <div class="col text-center">৪</div>
+                <div class="col text-center">৫</div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                <!-- progress bar -->
+                <div class="progress">
+                    <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="73"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        ng-style="quiz_style"
+                    >
+                    <span class="sr-only">{{ quiz_step * 20 }}% Complete</span>
+                    </div>
+                </div>
+                <!-- /progress bar -->
+                </div>
+            </div>
+
+            </div>
+        </div>
+        <div class="box-body">
+            <div class="row">
+            <div class="col-11 offset-1" ng-if="is_quiz_completed">
+                <div class="success row" ng-if="is_quiz_succeed">
+                    <div class="col-1 offset-2">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="col-9">
+                        <span>অভিনন্দন, আপনি লোনের জন্য এপ্লাই করতে পারবেন।</span>
+                    </div>
+                </div>
+                <div class="fail row" ng-if="is_quiz_failed">
+                    <div class="col-1">
+                        <i class="fas fa-times-circle"></i>
+                    </div>
+                    <div class="col-11">
+                        <span>আপনার পর্যাপ্ত পরিমান তথ্য না থাকার কারণে এখন লোন দেয়া সম্ভব হিচ্ছে না।
+                        অনুগ্রহ করে আবার চেষ্টা করুন।</span>
+                    </div>
+
+                    <div class="col-11 text-center">
+                        <button type="button" class="btn btn-primary" ng-click="quizRetry()">RETRY</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 offset-md-1" ng-if="!is_quiz_completed">
+                <div class="q-text q1" ng-if="quiz_step == 1">
+                    আমার বয়স ১৮ এর বেশি?
+                </div>
+                <div class="q-text q2" ng-if="quiz_step == 2">
+                    আমার ব্যবসার বয়স ৬ মাসের বেশি
+                </div>
+                <div class="q-text q3" ng-if="quiz_step == 3">
+                    আমার জাতীয় পরিচয় পত্র আছে
+                </div>
+                <div class="q-text q4" ng-if="quiz_step == 4">
+                    আমার নোমিনীর জাতীয় পরিচয় পত্র আছে
+                </div>
+                <div class="q-text q5" ng-if="quiz_step == 5">
+                    নিচের ডকুমেন্ট গুলো আমার কাছে আছে:
+                    <ul>
+                        <li>
+                            <span>ব্যাংক স্টেটমেন্ট (পার্সোনাল/বিজনেস) বা ফেইসবুক পেজ</span>
+                        </li>
+                        <li>
+                            <span>অফিসের/ বাসার ভাড়ার চুক্তিপত্র</span>
+                        </li>
+                        <li>
+                            <span>ডেলিভারি স্টেটমেন্ট (পাঠাও, ই-কুরিয়ার, বিদ্যুৎ, ইত্যাদি)</span>
+                        </li>
+                        <li>
+                            <span>পানির বিল অথবা বিদ্যুৎ বিলের কপি</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-5" ng-if="!is_quiz_completed">
+                <button type="button" class="btn btn-secondary" ng-click="quizDeny()">no</button>
+                <button type="button" class="btn btn-primary" ng-click="quizNext()">yes</button>
+            </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    </div>
+    <!-- /box -->
+
+</div>
+</section>
+<!-- /questions -->

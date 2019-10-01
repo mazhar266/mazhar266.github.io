@@ -1,0 +1,134 @@
+@charset "UTF-8";
+h1 {
+  font-size: 2.4em;
+}
+
+h2 {
+  font-size: 2.13em;
+  font-weight: 600;
+}
+
+.virtical-list {
+  flex-flow: column;
+}
+.virtical-list li {
+  display: block;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.slider-holder {
+  margin: auto;
+  width: 314px;
+  max-width: 100%;
+}
+
+.rzslider {
+  margin: 0;
+}
+.rzslider .rz-ticks {
+  top: 16px;
+}
+.rzslider .rz-ticks .rz-tick {
+  width: 3px;
+  height: 4px;
+  background-color: #e6e6e6;
+}
+.rzslider .rz-bar {
+  height: 10px;
+  border-radius: 10px;
+  background-color: #e6e6e6;
+}
+.rzslider .rz-selection {
+  background-color: #5c6bbf;
+  border-radius: 10px;
+}
+.rzslider .rz-pointer {
+  top: -9px;
+  width: 26px;
+  height: 26px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.14);
+  background-color: #ffc929;
+}
+.rzslider .rz-pointer.rz-active::before, .rzslider .rz-pointer.rz-active::after {
+  background: white;
+}
+.rzslider .rz-pointer:hover::before, .rzslider .rz-pointer:hover::after, .rzslider .rz-pointer:active::before, .rzslider .rz-pointer:active::after {
+  background: white;
+}
+.rzslider .rz-pointer::before, .rzslider .rz-pointer::after {
+  position: absolute;
+  top: 8px !important;
+  color: white;
+  content: " ";
+  background: white;
+  width: 3px;
+  height: 11px;
+  border-radius: 1px;
+}
+.rzslider .rz-pointer::before {
+  left: 8px !important;
+}
+.rzslider .rz-pointer::after {
+  left: 15px !important;
+}
+
+ol.normal {
+  padding-left: 20px;
+  list-style: bengali;
+  opacity: 0.6;
+}
+ol.normal li::before {
+  display: none !important;
+}
+
+.illustration {
+  background: url(https://d118vismjsp9sl.cloudfront.net/assets/ed9ffb3c2a68c9f4b5fcff977975c59d.png) no-repeat center center;
+  background-size: contain;
+  height: 200px;
+}
+
+.slick-arrow {
+  width: 46px;
+  height: 46px;
+  background-color: #ffc929;
+  border-radius: 50%;
+}
+.slick-arrow:hover, .slick-arrow:active, .slick-arrow:focus {
+  background-color: #ffc929;
+}
+.slick-arrow.slick-prev {
+  margin-left: -20px;
+}
+.slick-arrow.slick-prev::before {
+  position: absolute;
+  top: 8px;
+  left: 11px;
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+.slick-arrow.slick-next {
+  right: -50px;
+}
+.slick-arrow.slick-next::before {
+  position: absolute;
+  top: 8px;
+  left: 14px;
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
